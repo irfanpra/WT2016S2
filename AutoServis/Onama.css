@@ -1,0 +1,38 @@
+#tabela
+{	
+/*	border: 3px solid black;*/
+	margin-left:205px;
+	overflow:hidden;
+	width:44%;
+}
+#tabela th
+{	
+	
+	color:white;
+	background-color: black;
+}
+#tabela tr:nth-child(even)
+{	
+	
+	color:white;
+	background-color: #CA0000;
+}
+#tabela tr:nth-child(odd)
+{	
+
+	color:black;
+	background-color: white;
+}
+#tabela img
+{
+	float:left;
+	height:80px;
+	width:200px;
+}
+
+table, tr, td{
+	border: 1px solid black;
+}
+table{
+	border-collapse:collapse;
+}

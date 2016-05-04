@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script:700&subset=latin,latin-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Arimo&subset=latin,latin-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Dosis&subset=latin,latin-ext);
+
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+header{
+	width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Oleo Script;
+	color: #059805;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -25px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.mojLogo1 {
+    height: 128px;
+    width: 130px;
+    background: #059805;
+    border-radius: 20%;
+    margin-top: -150px;
+    margin-left: 130px;
+    float: left;
+    position: relative;
+	top: -15px;
+    right: -80px;
+	
+}
+
+.mojLogo1 .L {
+    position: relative;
+    color: white;
+    font-size: 128px;
+    top: -20px;
+    right: -30px;
+}
+
+.mojLogo1 .D {
+	position: relative;
+    color: white;
+    font-size: 70px;
+    top: -133px;
+    right: -59px;
+	
+}
+
+.mojLogo1 .KZ {
+    position: relative;
+    font-size: 22px;
+    color: white;
+    top: -130px;
+    right: -8px;
+}
+
+.meni {
+	
+	margin-top: -25px;
+	margin-bottom: 20px;
+	width: 950px;
+	margin-left:auto;
+	margin-right: auto;
+	background-color: black;
+	border-radius: 20%;
+	
+}
+
+.meni ul {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+
+
+	
+}
+
+.meni li{
+	display: inline;
+	font-size: 23px;
+	font-weight: bold;
+	padding: 0px 10px 0px 30px;
+	
+	
+}
+
+.meni  a{
+	text-decoration: none;
+	color: white;
+}
+
+.meni a:hover{
+	color: #059805;
+}
+
+#kraj {
+	text-align: center;
+    clear: left;
+	
+}
+
+/* Početna */
+
+section{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#novosti{
+	margin-left: 220px;
+	border: 2px solid #059805;
+}
+
+.novostParent{
+	width: 100%;
+    padding-left: 220px;
+}
+
+.novostChild {
+	width: 31%;
+	height: 450px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	border: 2px solid #059805;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right:30px;
+	padding: 0px 5px 5px 10px;
+	background-color: #E9F1A3;
+	font-family: Dosis;
+	
+}
+
+.novostChild  h4{
+	text-align: center;
+	font-family: Arimo;
+}
+
+.novostChild img {
+	width:220px;
+	height:180px;
+}
+
+/* O nama */
+
+.oNamaParag {
+	font-size: 20px;
+	font-family: Dosis;
+	border: 2px solid #059805;
+	background-color: #E9F1A3;
+	padding: 15px ;
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+
+
+/* Korisni linkovi */
+
+#linkovi {
+	margin-left: 220px;
+	margin-right: 220px;
+	font-size: 20px;
+	font-family: Dosis;
+}
+
+#linkovi li {
+	list-style-type: none;
+	width: 200px;
+	padding: 5px 0px 0px 0px;
+}
+	
+#linkovi li:hover {
+	list-style-image: url('slike/icon.png');
+}
+
+#linkovi a:hover {
+	color: #059805;
+}
+
+
+/* Lov  */
+
+#sezonaLova {
+	position: relative;
+	margin-left: 220px;
+	margin-right: 220px;
+	margin-top: 40px;
+	border-collapse: collapse;
+	text-align:center;
+	font-family: Dosis;
+}
+
+#tabelaParag {
+	position: relative;
+	margin-top: 40px;
+	margin-left:220px;
+	margin-right: 220px;
+	font-size: 20px;
+	font-family: Dosis;
+}
+
+#capt {
+	font-size: 20px;
+}
+
+#sezonaLova tr, th, td {
+	border: 2px solid ;
+	width:175px;
+}
+
+#sezonaLova th {
+	background-color: rgba(33, 117, 22, 0.89);
+}
+
+.parni {
+	background-color: #BD7306;
+}
+
+.neparni {
+	background-color: #DFF135;
+}
+	
+
+
+/* Kontakt Forma */
+
+
+#kontaktForma {
+	
+	border: 2px solid #059805;
+	border-radius: 20%;
+	width: 33%;
+	height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	text-align: right;
+	padding: 23px 29px 32px 29px;
+	top: 70px;
+	background-color: #E9F1A3;
+	font-family: Dosis;
+}
+
+#divKontakt label{
+    font-size: 25px;
+	position: relative;
+	right: 60px;
+	display: inline-block;
+	
+}
+
+
+#divKontakt input {
+	height: 20px;
+	position: relative;
+	border: 2px solid #059805;
+	display: inline-block;
+	
+	
+}
+
+#ime {
+	position: relative;
+	right: 50px;
+}
+
+#broj {
+	position: relative;
+	right: 50px;
+}
+
+#mail {
+	position: relative;
+	right: 50px;
+}
+
+#posalji {
+	position: relative;
+	right: 60px;
+	top: 40px;
+}
+
+
+#selectGrad{
+	position: relative;
+	border: 2px solid #059805;
+	display: inline-block;
+	height: 20px;	
+	right: 50px;
+	width: 173px;
+}
+
+#selectDrustvo{
+	position: relative;
+	height: 20px;
+	border: 2px solid #059805;
+	display: inline-block;
+	right: 50px;
+	
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.form-wrapper {
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 100%;
+    background: #00A9E0;
+    width: 300px;
+    padding: 10px;
+}
+.form-wrapper table td {
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    background: #00A9E0;
+    color: white;
+}
+textarea {
+    resize: none;
+    width: 100%;
+}
+.button-cell {
+    text-align: right;
+}
+input:required:invalid, input:focus:invalid, textarea:invalid {
+  background-color: red;
+}
+input:required:valid, textarea:required:valid {
+  background-color: white;
+}
+input:valid {
+  background-color: white;
+}

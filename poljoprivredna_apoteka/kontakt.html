@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Agro-Land</title>
+		<script type="text/javascript" src="skripte/validacijaKontakt.js"></script>
+		<link rel="stylesheet" type="text/css" href="stilovi/stil.css">
+	</head>
+	<body>
+		<div id="menu" class="row">
+			<a href="index.html">
+				<div id="logo" class="col-4">
+					<div class="box-logo-name">
+						<div class="box-logo">
+							<div class="raindrop green_ligth"></div>
+	    					<div class="raindrop green"></div>
+	    					<div class="raindrop green_ligth"></div>
+	    					<div class="raindrop green"></div>
+	    					<div class="raindrop green_ligth"></div> 
+						</div>
+						Agro Land
+					</div>
+				</div>
+			</a>
+			<ul class="col-5">
+				<li><a href="index.html">Početna</a></li>
+				<li class="dropdown">
+					<a href="#">Proizvodi</a>
+					<div class="dropdown-content">
+					    <a href="lista_proizvoda.html">Tip proizvoda 1</a>
+					    <a href="lista_proizvoda.html">Tip proizvoda 1</a>
+	    				<a href="lista_proizvoda.html">Tip proizvoda 1</a>
+  					</div>
+  				</li>
+				<li><a href="onama.html">O nama</a></li>
+				<li><a href="kontakt.html" class="active">Kontakt</a></li>
+			</ul>
+			<div class="col-3">
+				<div class="search">
+					<a href="#">
+						<img src="img/page/search.png" alt="pretraga ico">
+					</a>
+					<input name="search" type="text" placeholder="Pretraga"/>
+				</div>
+			</div>
+		</div>
+		<div id="glavni" class="row">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<h3>Kontakt</h3>
+				<div class="kontakt-forma">
+					<div class="row">
+		  				<form id="kontakt" action="#" method="POST" onsubmit="return validateForm()">
+		  					<div class="row">
+		  						<div class="col-2">
+		  							<label for="ime">Ime</label>
+		  						</div>
+		  						<div class="col-4">
+		  							<input type="text" id="ime" name="ime" placeholder="Ime">
+		  						</div>
+		  					</div>
+		  					<div class="row">
+		  						<div class="col-2">
+		  							<label for="email">Email</label>
+		  						</div>
+		  						<div class="col-4">
+		  							<input type="email" id="email" name="email" placeholder="example@email.com">
+		  						</div>
+		  					</div>
+		  					<div class="row">
+		  						<div class="col-2">
+		  							<label for="url">Web</label>
+		  						</div>
+		  						<div class="col-4">
+		  							<input type="url" id="url" name="url" placeholder="http://example.com">
+		  						</div>
+		  					</div>
+		  					<div class="row">
+		  						<div class="col-2">
+		  							<label for="poruka">Poruka</label>
+		  						</div>
+		  						<div class="col-5">
+		  							<textarea name="poruka" id="poruka" placeholder="Poruka"></textarea>
+								</div>
+		  					</div>
+		  					<div class="row">
+		  						<div class="col-3">
+		  							<label for="range">Ocjena usluga</label>
+		  						</div>
+		  						<div class="col-5">
+		  							<input type="range" id="range" name="range" min="0" max="10">
+		  						</div>
+		  					</div>
+		  					<div class="row">
+		  						<hr>
+		  						<div class="col-8"></div>
+		  						<div class="col-2">
+		  							<input type="submit" id="button-potvrdi" value="Pošalji" class="button-confirm">
+		  						</div>
+		  					</div>
+						</form>
+					</div> 
+				</div>
+			</div>
+			<div class="col-2"></div>
+		</div>
+		<div id="footer" class="row">
+			<div class="col-6">
+				&copy; agro land
+			</div>
+			<div class="col-6 desni">
+				<ul>
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="#">Proizvodi</a></li>
+					<li><a href="onama.html">O nama</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

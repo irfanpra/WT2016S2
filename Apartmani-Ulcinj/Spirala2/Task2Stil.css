@@ -1,0 +1,429 @@
+h2
+{
+	color:white;
+}
+#vrijemeObjave1
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave2
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave3
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave4
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave5
+{ 
+color:yellow;
+float:none;
+text-align:right;
+}
+#vrijemeObjave6
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+
+#vrijemeObjave7
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave8
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave9
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave10
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+#vrijemeObjave11
+{ 
+color:yellow;
+float:none;
+text-align:right;
+}
+#vrijemeObjave12
+{ 
+color:yellow;
+
+float:none;
+text-align:right;
+}
+
+#vrijeme1
+{
+	display:none;
+}
+
+#vrijeme2
+{
+	display:none;
+}
+
+#vrijeme3
+{
+	display:none;
+}
+
+#vrijeme4
+{
+	display:none;
+}
+
+#vrijeme5
+{
+	display:none;
+}
+#vrijeme6
+{
+	display: none;
+}
+
+#vrijeme7
+{
+	display:none;
+}
+
+#vrijeme8
+{
+	display:none;
+}
+
+#vrijeme9
+{
+	display:none;
+}
+
+#vrijeme10
+{
+	display:none;
+}
+
+#vrijeme11
+{
+	display:none;
+}
+#vrijeme12
+{
+	display: none;
+}
+
+
+@font-face {
+ font-family:'a';
+  src: url('DJGROSS.ttf');
+	}
+	
+#header
+{
+	padding:75px;
+	background-color:transparent;
+	
+	
+}
+
+body
+{
+	background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnV4caWx-bC7YFNthZmjEolhDvFLdUk4o5kbwakRhZeUo3i51I');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+	min-width: 750px;
+	margin:0;
+overflow-y: scroll;
+overflow-x: hidden;
+	
+	height:100%;
+}
+
+h1 span {
+  font-family:a;
+  height: 200px;
+  position: absolute;
+  width: 20px;
+  color:#0066CC	;
+  left:800px;
+  text-align:center;
+  top: 0;
+  transform-origin: bottom center;
+}
+#navigation ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	padding-left:610px;
+	height:55px;
+min-width:990px;
+	font-size:25px;
+	
+    background-color: transparent;
+}
+
+
+
+#navigation li {
+    float: left;
+	
+	
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation  a:hover {
+    background-color: #C8C8C8 	;
+}
+
+
+.tekst
+{
+	margin-top:100px;
+	margin-left:-120px;
+}
+#zajednicka
+{
+	text-align:center;
+}
+.sadrzaj {
+
+ width: 1700px;
+  margin: 0 auto;
+  margin-top:30px;
+color:white;
+  
+
+  }
+
+.Novost {
+
+  width: 520px;
+   display: inline-block;
+  
+
+  }
+img
+{
+	float:left;
+	width:200px;
+	height:130px;
+}
+	
+	
+	
+
+#body   ul
+{
+	
+    font-size:120%;
+	list-style-type:none;
+	display:inline-block;
+	float: none;
+    color:red;
+	background-color: transparent;
+	margin-top:10%;
+	
+	
+}
+#body li a{
+	
+color:white;	
+}
+
+
+
+#body ul  li:hover
+{
+list-style-image:url('http://www.woollettaquanet.info/SheetMusic/musicimages/sqblack.gif');
+	
+}
+#body ul li:hover:not(.active) {
+	
+    list-style-image:url('http://www.woollettaquanet.info/SheetMusic/musicimages/sqblack.gif');
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+
+   margin-top:10%;
+	
+	
+	
+}
+#sirina
+
+{
+	column-width:20px;
+	
+}
+th
+{
+	background-color:silver;
+	column-width:auto;
+}
+tr:nth-child(odd) {
+    background-color: #00FFFF	;
+}
+tr:nth-child(even) {
+    background-color: #FFFFFF	;
+}
+
+.centriraj
+{
+	position:absolute;
+	width:960px;
+	margin-left:550px;
+	margin-top:80px;
+}
+table
+{
+	table-layout:fixed;
+	width:600px;
+}
+
+
+
+#napomena
+{
+	color:blue;
+}
+
+
+#zvezda
+{
+	color:red;
+}
+
+#errfn
+{
+	color:red;
+	
+}
+#errfn1
+{
+	color:red;
+	
+}
+
+#errfn2
+{
+	color:red;
+	
+}
+#errfn3
+{
+	color:red;
+	
+}
+
+#errfn4
+{
+	color:red;
+	
+}
+
+#errfn5
+{
+	color:red;
+	
+}
+#labela
+{
+	text-align:right;
+	color:white;
+}
+select
+{
+	margin-left:10px;
+}
+.block label {  display: inline-block; width: 140px; text-align: right; float:none;}
+
+.block  select{width:173px;}
+#myDate{width:173px;}
+.formPosition
+{
+  margin-top:80px;
+}
+form
+{
+		margin-left:600px;
+	text-align:center;
+  float:left;
+width:500px;
+height:450px;
+background: silver;
+
+ 
+}
+
+  .char1 { transform: rotate(-60.5deg);
+
+	
+}
+.char2 { transform: rotate(-49.5deg);
+}
+.char3 { transform: rotate(-38.5deg);
+}
+.char4 { transform: rotate(-27.5deg);
+}
+.char5 { transform: rotate(-16.5deg); 
+	}
+.char6 { transform: rotate(-5.5deg);
+}
+.char7 { transform: rotate(5.5deg);
+}
+.char8{ transform: rotate(16.5deg);
+}
+.char9 { transform: rotate(27.5deg);
+}
+.char10 { transform: rotate(38.5deg);
+}
+.char11 { transform: rotate(49.5deg);
+}
+.char12{ transform: rotate(60.5deg);}

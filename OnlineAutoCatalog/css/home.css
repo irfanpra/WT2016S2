@@ -1,0 +1,109 @@
+body {
+	background-color: black;
+}
+
+.main-container {
+
+	width: 1280px;
+	height: 1024px;
+	display: flex;
+}
+
+
+.main-container .left-section {
+
+	width: 25%;
+	height: 100%;
+}
+
+.main-container .right-section{
+
+	width: 75%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.main-container .link-list {
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+.main-container .link-list-item {
+	margin: 2px 0px 2px 0px;
+	padding-left: 20px;
+}
+
+.main-container .link-list-item a {
+	font-weight: bold;
+	color: #A61618;
+}
+
+.main-container .link-list-item:hover {
+	
+	background-image: url('../content/images/search.png');
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+}
+
+.main-container .right-section .news {
+
+	height: 400px;
+	margin: 15px 15px 5px 15px;
+	padding: 15px 10px;
+	border: 2px solid #4D0404;
+	border-radius: 15px;
+	display: flex;
+
+	background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, gray , #A61618); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, gray, #A61618); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, gray, #A61618); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, gray , #A61618); /* Standard syntax */
+}
+
+.main-container .right-section .news:hover{
+	box-shadow: 0 0 15px 1px red;
+	cursor: pointer;
+}
+
+.main-container .right-section .news .part {
+
+	width: 50%;
+	height: 99%;
+	margin: 0px 5px;
+}
+
+.main-container .right-section .news .images {
+	width: 100%;
+	height: 100%
+}
+
+.main-container .right-section .news .article {
+
+	margin: 5px;
+	text-align: justify;
+}
+
+.main-container .right-section .time-mark{
+    margin-bottom: 30px;
+    margin-right: 50px;
+    color: white; 
+    text-align: right;
+    font-size: 12px;
+}
+
+.main-container .filters {
+    color: white;
+    margin-left: 30px;
+}
+
+.main-container .filter {
+    text-decoration: underline;
+    margin: 0px 10px;
+}
+
+.main-container .filter:hover {
+    cursor: pointer;
+}
+

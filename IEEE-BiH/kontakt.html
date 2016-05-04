@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IEEE BiH</title>
+    <link rel="stylesheet" href="stil.css">
+    <script type="text/javascript" src="jsfunkcije.js"></script>
+</head>
+<body>
+   <header id="header">
+
+
+        <div class="logo">
+     
+  <div class="logoSlovoI"></div>
+  <div class="logoSlovoE">
+      <div class="logoPrazno1"></div>
+      <div class="logoPrazno2"></div>
+  </div>
+  <div class="logoSlovoE">
+      <div class="logoPrazno1"></div>
+      <div class="logoPrazno2"></div>
+  </div>
+  <div class="logoSlovoE">
+      <div class="logoPrazno1"></div>
+      <div class="logoPrazno2"></div>
+  </div>
+  
+  </div>           
+ 
+          
+
+          <div id="menu">
+              <ul>
+                  <li><a href="index.html">NASLOVNA</a></li>
+                  <li><a href="clanovi.html">CLANOVI</a></li>
+                  <li><a href="kontakt.html">KONTAKT</a></li>
+                  <li><a href="linkovi.html">LINKOVI</a></li>
+              </ul>
+          </div> 
+          
+ <h1 >Stranica IEEE udruženja Bosne i Hercegovine</h1>
+     
+          
+          
+  
+  </header>
+          
+          <h3 class="centrirano">Molimo Vas da svoja pitanja i sugestije posaljete kroz formu ispod:</h3>
+          
+  
+        <form id="forma" onsubmit="validirajKontakt()">
+            
+           <label for="ime">Ime:</label>
+           <input type="text" id="ime" onchange="validirajUnos(this)" required>
+           
+           <label for="prezime">Prezime:</label>
+           <input type="text" id="prezime" onchange="validirajUnos(this)" required>
+          
+          <label for="email">E-mail:</label>
+           <input type="text" id="email" >
+           
+           <label for="telefon">Telefon:</label>
+           <input type="text" id="telefon" onchange="validirajTelefon(this)" >
+
+           
+           <label for="naslov">Naslov poruke:</label>
+           <input type="text" id="naslov" onchange="validirajUnos(this)" required>
+           
+           <label for="poruka">Poruka:</label>
+           <textarea id="poruka" required></textarea>
+           
+           <button id="buttonSend" type="submit">Posalji</button>
+           
+           </form>
+        
+</body>
+</html>

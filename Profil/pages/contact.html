@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="./../styles/contactStyle.css">
+	<SCRIPT src="./../scripts/contact.js"></SCRIPT>
+	<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<!-- kopirano-->
+  <table id="menu" >
+  <tr>
+  <td class="loader">Profile</td>
+    <td><a class="linkNavbar" href="home.html"> Home</a></td>
+    <td><a class="linkNavbar" href="table.html">Table</a></td> 
+    <td><a class="linkNavbar active" href="contact.html">Contact</a></td>
+    <td><a class="linkNavbar" href="link.html">Links</a></td>  	
+  </tr>
+</table>
+<!--glavni dio-->
+
+  <form id="contact_form">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" required  onkeyup="validateName()"/><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="email" required onkeyup="validateEmail()"/><br />
+	</div>
+	<div class="row">
+		<label for="phone">Phone:</label><br />
+		<input id="phone" class="input"  type="tel" /><br />
+	</div>
+	<div class="row">
+		<label for="clr">Favourite color:</label><br />
+		<input id="clr" class="input" type="color" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input"  rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>				
+
+<footer class="footer">
+<label>Copyright info</label>
+</footer>
+
+</body>
+
+</html>
+
+
+
+
+		

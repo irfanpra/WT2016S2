@@ -1,0 +1,285 @@
+
+
+
+
+* {
+  margin:0px auto;
+  padding:0px;
+text-decoration:none;
+
+}
+
+
+
+
+html,body 
+{
+background:url('http://ppiamonash.org/wp-content/uploads/2014/10/2014-03-Grey-Background-67.jpg');
+   -moz-background-size: cover;    /* Mozilla*/
+  background-size: cover;   
+background-repeat: no-repeat;
+background-position: center;
+ background-attachment: fixed;
+ width:100%;
+ position:fixed;
+}
+
+td.parni{
+	background-color: #FFF2CC ;
+}
+
+td{
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+th{
+	background-color:#CCCCCC;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+img{
+width:85%;}
+header
+{
+
+font-size: 46px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+h1 
+{
+ text-align: center;
+	font-size: 60px;
+font-family: 'Stalemate', cursive;
+	color:#2F4F4F;
+padding: 5px;
+ }
+ 
+ h2{
+ 
+	font-size: 30px;
+font-family: 'Satisfy', cursive;
+	color:#2F4F4F;
+padding: 5px;
+}
+h3{
+font-size: 25px;
+font-family: 'Satisfy', cursive;
+	color:#2F4F4F;
+padding: 5px;}
+h4{
+font-size: 18px;
+font-family: 'Satisfy', cursive;
+	color:#2F4F4F;
+padding: 5px;}
+section{
+width:600px;
+margin-left:20px;
+}
+
+form{
+background-color:white;
+display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+main
+{ 
+        width:800px;
+		height:400px;
+        float:left;
+		  padding:10px;
+
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:10px;
+
+
+
+       
+      
+
+}
+::-webkit-scrollbar {
+    width: 14px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+	background-color: lightgrey;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 14px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+background-color: whitesmoke;	
+}
+nav
+{
+/* background-color: #E0E0E0 ; */
+ text-decoration: none;
+   /*  border: 2px solid lightgrey;*/
+   border-radius: 15px;
+
+}
+
+nav ul{
+
+	font-size: 20px;
+margin-left:40px;
+}
+
+nav ul li
+{
+
+	display: inline-table;
+	padding: 15px 0px;
+  border-bottom: 3px solid grey;
+  border-right:1px solid #505050 ;
+  border-radius:20px;
+  width:200px;
+}
+
+a{
+padding:10px 10px 10px 10px;
+color:#2F4F4F;
+}
+
+/* visited link */
+a:visited {
+    color: #2F4F4F ;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2F4F4F 
+;
+}
+
+/* selected link */
+a:active {
+    color: #2F4F4F
+;
+}
+
+aside
+{
+ 
+background-color:lightgrey;
+	height:400px;
+    width:450px;
+    float:right;
+    padding:10px; 
+	margin-left:10px;
+	margin-right:15px;
+	margin-top:5px;
+	margin-bottom:10px;
+	border-radius:15px;
+	border:1px dotted #2F4F4F;
+	
+}
+
+
+
+p{
+color:#2F4F4F;
+
+
+}
+.img1{
+width:23%;
+display:inline-block;
+}
+footer
+{
+
+clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+  padding:10px 5px 0px 15px;
+  border-radius:15px;
+}
+
+table.gridtable {
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#000000;
+	border-width:10px;
+	border-color:#666666;
+ border-radius: 100px;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 15px;
+	padding: 15px;
+	border-style: solid;
+	border-color:#666666;
+   border-radius: 25px;
+	background-color: #000000;
+
+}
+table.gridtable td {
+
+	border-width: 1px;
+
+	padding: 5px;
+border-style: solid;
+	border-color:#2F4F4F ;
+   border-radius: 25px;
+color:blue;
+	
+}
+#logo {
+	height: 6vw;
+	position:absolute;
+	width: 6vw;
+	border-radius: 10%;
+	transform: rotate(45deg);
+	background: #e6e6e6;
+	margin:2%;
+	float:right;
+}
+
+#kruzic {
+	position: absolute;
+	height: 24%;
+	width: 21%;
+	background: black;
+	top: 59%;
+	left: 52%;
+	border-radius: 50%;
+}
+
+#linija {
+	position:absolute;
+	border-radius: 50%/100px 100px 0 0;
+	top:7%;
+	left:40%;
+	width:6%;
+	height: 66%;
+	transform: rotate(-45deg);
+	background-color: black;
+
+}
+#logo:hover{
+	border-radius: 50%;
+	border:solid 0.4vw #cccccc;
+}
+
+
+footer ul
+{
+margin-bottom: 50px;}

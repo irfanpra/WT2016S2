@@ -1,0 +1,95 @@
+
+#header {  
+    background-color:rgb(60,70,68);
+    color:white;
+    text-align:center;
+    padding:5px;
+	color: rgb(200,220,45);
+}
+#nav {
+    line-height:50px;
+    background-color: rgb(60,70,68);
+    height:100%;
+    width:100px;
+    float:left;
+    padding:5px; 
+	font-family:Arial;
+	font-size:20px;
+	
+}
+#section {
+	max-width: 500px;
+    float:left;
+    padding:10px; 
+	
+}
+
+
+img {
+	max-width: 500px;
+	height: 200px;
+	width:200px;
+}
+
+a {
+	color: rgb(200,220,45);
+}
+
+a:hover {
+	color:blue;
+}
+ul {
+	list-style-type:none;
+}
+
+* {
+margin: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+.footer, .push {
+height: 4em;
+clear:both;
+}
+
+.footer {
+	text-align:center;
+	background-color: rgb(60,70,68);
+}
+
+table,th,td {
+	border: 1px solid green;
+}
+
+th {
+	background-color:yellow;
+}
+
+tr:nth-child(even) {
+	background:blue;
+	}
+tr:nth-child(odd) {
+	background: #0066FF;
+	}
+	
+#ikona{
+	list-style-type:none;
+	font-size:35px;
+	}
+	
+#ikona:hover {
+	list-style-image:url('http://maps.google.com/mapfiles/kml/pal3/icon55.png');
+	}
+	
+
+

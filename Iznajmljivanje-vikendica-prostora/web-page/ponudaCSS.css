@@ -1,0 +1,135 @@
+.sve
+{
+	width:28%;
+	float:left;
+}
+
+#cetvrti
+{
+	width:16%;
+	float:left;
+}
+
+.divBB
+{
+	width: 95%;
+	height: 200px;
+	background-color: #ff8000;
+	border-style: solid;
+	border-color: #ff8000;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divBB:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ff9900;
+		border-color: #ff9900;
+}
+
+.divDD
+{
+	width: 95%;
+	height: 200px;
+	background-color: #cc3300;
+	border-style: solid;
+	border-color: #cc3300;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divDDa
+{
+	width: 80%;
+	height: 200px;
+	background-color: #cc3300;
+	border-style: solid;
+	border-color: #cc3300;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divDD:hover, .divDDa:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ff4000;
+		border-color: #ff4000;
+}
+
+.divEE
+{
+	width: 95%;
+	height: 200px;
+	background-color:#e6b800;
+	border-style: solid;
+	border-color: #e6b800;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divEEa
+{
+	width: 80%;
+	height: 200px;
+	background-color:#e6b800;
+	border-style: solid;
+	border-color: #e6b800;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divEE:hover, .divEEa:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ffcc00;
+		border-color: #ffcc00;
+}
+.divAb
+{
+	width: 95%;
+	height: 120px;
+	background-color: #00cccc;
+	border-style: solid;
+	border-color: #00cccc;
+	border-radius: 3%; /*a bilo 5 px;*/
+	float: left;
+	margin: 1%; /*a bilo 5px;*/
+}
+.divAb:hover
+{
+		box-shadow: 0 0 5px 3px #e1d5d5;
+		background-color: #92f6f7;
+		border-color: #92f6f7;
+}
+.divAbc
+{
+	width: 73%;
+	height: 180px;
+	background-color: #00cccc;
+	border-style: solid;
+	border-color: #00cccc;
+	border-radius: 3%; /*a bilo 5 px;*/
+	float: right;
+	margin-right: 12%;
+	margin-top:10px; /*a bilo 5px;*/
+}
+.divAbc:hover
+{
+		box-shadow: 0 0 5px 3px #e1d5d5;
+		background-color: #92f6f7;
+		border-color: #92f6f7;
+}
+.divAbcd
+{
+	width: 73%;
+	height: 180px;
+	border-style: solid;
+	border-radius: 5%;
+	border-color: #ffa853;
+	/*box-shadow:  0 0 5px 3px #ff8000;*/ /*a bilo 5 px;*/
+	float: right;
+	margin-right: 12%;
+	 /*a bilo 5px;*/
+}
+

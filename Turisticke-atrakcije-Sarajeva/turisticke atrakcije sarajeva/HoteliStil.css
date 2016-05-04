@@ -1,0 +1,147 @@
+ul.moja_lista
+{
+	
+	float:center;
+	display:block;
+	font-style:verdana;
+	font-size:30px;
+	
+	
+	
+}
+ul.moja_lista li:hover
+{
+	list-style:square url("hotel2.png");
+}
+ul.moja_lista li a
+{
+	color: #cc0000;
+	text-align:center;
+	
+}
+#menu{
+	float:center;
+	margin-left:50px;
+	margin-right:50px;
+}
+#menu ul 
+{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	float:center;
+	
+}
+#menu a
+{
+	display:block;
+	width:8em;
+	color:white;
+	background-color: black;
+	text-decoration:none;
+	text-align:center;
+	font-style:verdana;
+	float:center;
+	
+}
+#menu a:hover
+{
+	background-color: red;
+	
+}
+#menu li
+{
+	float:right;
+
+}
+
+body
+{
+	background-image:url ("hotel.jpg");
+}
+.srce
+{
+	position:relative;
+	margin:-10px;
+	margin-top:-10px;
+	height:42px;
+	width:50px;
+display:inline;
+	content:"EnyojSarajevo!";
+	color:black;
+	font-size:20px;
+	
+	
+	
+}
+.srce:before, 
+.srce:after
+{
+	position:absolute;
+	content:"";
+	width:25px;
+	height:40px;
+	background:#cc0000;
+	border-radius: 12px 12px 0 0 ;
+	
+}
+.srce:before
+{
+	left:25px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	-webkit-transform-origin:0 100%;
+	transform-origin:0 100%;
+	background:#184668;
+}
+.srce:after{
+	left:0;
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+		-webkit-transform-origin:100% 100%;
+	transform-origin:100% 100%;
+	
+	
+}
+.title a {
+  color:#184668;
+  text-decoration:none;
+  transition:.2s;
+}
+.title {
+  float:left;
+margin-top:5px;
+  
+  font-size:25px;
+  line-height:1em;
+  font-weight:100;
+  letter-spacing:0.025em;
+  background-color:#cc0000;
+}
+.logo
+{
+	position:fixed;
+	float:right;
+	top:0px;
+	margin-top:0px;
+	margin-left:0px;
+	
+}
+body
+{
+	background-image:url(central.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+h1
+{
+	
+	text-align:left;
+	font-size:50px;
+	color: #cc0000;
+	font-style:italic;
+}
+.title:hover
+{
+	background-color:red;
+}

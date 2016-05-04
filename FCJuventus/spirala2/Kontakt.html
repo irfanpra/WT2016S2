@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css"
+href="logo.css">
+ <title>Juventus</title>
+</head>
+<body >
+
+ <h1 >Juventus Football Club</h1>
+<p >Ova je stranica posveæena najveæem i najpopularnijem talijanskom klubu.</p>
+<p >Na ovoj stranici æete moæi pratiti najbitnija dešavanja vezana za ovaj klub.</p>
+
+<div class="logo">
+<div class="juve">
+JUVE
+  <p> 1897</p>
+</div>
+</div>
+<ul>
+<li><a  href="Naslovnica.html#">Naslovnica</a></li>
+<li><a  href="Tabela.html#">Tabela</a></li>
+<li ><a  href="Linkovi.html#">Linkovi</a></li>
+<li>Kontakt</li>
+</ul>
+
+<div id="forma">
+<form id="unosPodataka">
+<h1>Unos podataka</h1>
+<br> 
+<label>Ime i prezime: </label><input  id="imeIPrezime" onchange="provjeriIme(this.value)" type="text" name="imeIPrezime">
+<p id="pogresnoImeIPrezime"></p>
+<br><br>
+<label>Drzava: </label><select id="drzava">
+  <option value="bosna" selected>Bosna i Hercegovina</option>
+  <option value="ostaleDrzave">Ostale drzave</option>
+</select>
+<br><br>
+
+<label>Broj telefona: </label><input  id="brojTelefona" onchange="provjeriTelefon(this.value)" type="text" name="brojTelefona">
+<p id="pogresanBrojTelefona"></p>
+<br><br><br>
+
+
+<label>Broj godina: </label><input id="godine" onchange="provjeriGodine(this.value)" type="number" name="godine">
+<p id="pogresneGodine"></p>
+<br>
+</form>
+</div>
+
+
+
+
+
+<div id="dno">
+<p> <br><br> Copyright (c) 2016. Juve d.o.o </p>
+</div>
+
+
+
+ <script src="validacija.js"></script>
+
+</body>
+</html>

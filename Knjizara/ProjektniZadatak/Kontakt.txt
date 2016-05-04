@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>eBook knjizara</TITLE>
+
+<link rel="stylesheet" type="text/css" href="Kontakt.css">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+
+<div id="Pocetak">
+  <div id="Naslov">
+    <h1>eBook</h1>
+  </div>
+
+    <div id="meni">
+        <ul>
+        <li><a href="Knjižaraa.html">Početna</a></li>
+        <li><a href="Knjiga.html">Knjige</a></li>
+        <li><a href="Linkovi.html">Linkovi</a></li>
+        <li><a href="Onama.html">O nama</a></li>
+        <li><a href="Kontaktt.html">Kontakt</a></li>
+        </ul>
+        </div>
+       <div id = "Okvir">
+           <div id = "Forma">
+              <form>
+                <div id = "txt">
+                <label>E-mail: </label>
+                <br></br>
+                <input type="text" value="E-mail">
+                <br></br>
+                <label>Broj telefona: </label>
+                <br></br>
+                <input type="text" value="Broj telefona">
+                <br></br>
+                <label>Poruka: </label>
+                <br></br>
+                <input type="textarea" value="Poruka">
+                <br></br>
+                <br></br>
+
+            </div>
+              <input type="button" value="Pošalji">
+             </form>
+          </div>
+       </div>
+ </div>
+</BODY>
+</HTML>

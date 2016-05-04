@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>Auto Simanić</TITLE>
+<link rel="stylesheet"  href="Logo.css">
+<link rel="stylesheet"  href="Pocetna.css">
+<script src="regex.js"></script>
+<script src="valpriunosu.js"></script>
+</HEAD>
+<BODY>
+
+	<div id="Zaglavlje">
+	
+	<div class="Logo">
+	<p id="A">
+	A
+	</p>
+	<p id="uto">
+	uto
+	</p>
+	<p id="S">
+	S
+	</p>
+	<p id="imanic">
+	imanić
+	</p>
+	</div>
+	<div class="Menu">
+	<ul> 
+		<li><a href="Zad1.html">Početna</a></li>
+		<li><a href="Onama.html">O nama</a></li>
+		<li><a href="KontaktForma.html">Kontakt</a></li>
+		<li><a href="Eksterni_linkovi.html">Eksterni linkovi</a></li>
+	</ul>
+	</div>
+	</div>
+	
+	<div class="forma">
+	<form action="Forma" onsubmit="return(regeks());" method="GET|POST">
+	
+	<div id="labela_forma">
+	<label for="E-Mail">E-Mail:</label><br>
+	<input type="email" name="email" id="email" oninput="bojaEmail();" required><br>
+	</div>
+	<br>
+
+	<div id="labela_naziv">
+	<label for="ImeiPrezime">Ime i Prezime:</label>
+	<input type="text" name="ImeiPrezime" id="ImeiPrezime" oninput="bojaIme();" required><br>
+	</div>
+	<br>
+	
+	<div id="labela_drzava">
+	<label for="Država">Država:</label><br>
+	<select id="odabir"> 
+		<option value="bih">Bosna i Hercegovina</option>
+		<option value="srb">Srbija</option>
+		<option value="hrv">Hrvatska</option>
+		<option value="cg">Crna Gora</option>
+	</select>
+	
+	</div>
+	
+	<div id="labela_broj">
+	<label for="BrojTel">Broj Telefona:</label>
+	<input type="tel" name="tel" id="tel" oninput="bojaTel();" required><br>
+	</div>
+	
+	<div id="dugme">
+	<button type="submit" formaction="Zad1.html"> Submit </button>
+	</div>
+	
+	</form>
+	</div>
+	
+	
+	
+</BODY>
+</HTML>
+
+

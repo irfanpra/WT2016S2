@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IEEE BiH</title>
+    <link rel="stylesheet" href="stil.css">
+    <script type="text/javascript" src="jsfunkcije.js"></script>
+    
+</head>
+
+<body onload="izracunajDatum()" >
+
+    <div id="wrapper">
+    
+<header id="header">
+
+
+        <div class="logo">
+     
+  <div class="logoSlovoI"></div>
+  <div class="logoSlovoE">
+      <div class="logoPrazno1"></div>
+      <div class="logoPrazno2"></div>
+  </div>
+  <div class="logoSlovoE">
+      <div class="logoPrazno1"></div>
+      <div class="logoPrazno2"></div>
+  </div>
+  <div class="logoSlovoE">
+      <div class="logoPrazno1"></div>
+      <div class="logoPrazno2"></div>
+  </div>
+  
+  </div>           
+ 
+          
+
+          <div id="menu">
+              <ul>
+                  <li><a href="index.html">NASLOVNA</a></li>
+                  <li><a href="clanovi.html">CLANOVI</a></li>
+                  <li><a href="kontakt.html">KONTAKT</a></li>
+                  <li><a href="linkovi.html">LINKOVI</a></li>
+              </ul>
+          </div> 
+          
+ <h1 >Stranica IEEE udruženja Bosne i Hercegovine</h1>
+     
+          
+          
+  
+  </header>
+
+        
+        <h2 class="centrirano">Novosti</h2>
+        
+ <div id="filterNovosti">
+        <input type="radio" name="filter" id="sve" checked/>
+        <label for="sve">Sve</label>       
+        <input type="radio" name="filter" id="dan"/>
+         <label for="dan">Danas</label>
+        <input type="radio" name="filter" id="sedmica"/>
+        <label for="sedmica">Tekuca sedmica</label>
+        <input type="radio" name="filter" id="mjesec"/>
+        <label for="mjesec">Tekuci mjesec</label>
+        
+        <button type="button" onclick="filtrirajNovosti()">Filtriraj</button>
+</div>
+       
+        
+        
+        
+        <div class="novosti" >
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative!</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-05T17:13:10</p>
+            <p class="filterDatum">2016-05-05T17:13:10</p></div>
+        
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-05T17:12:20</p>
+            <p class="filterDatum">2016-05-05T17:12:20</p></div>
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-05T17:11:03</p><p class="filterDatum">2016-05-05T17:11:03</p></div>
+         <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-05T16:58:03</p><p class="filterDatum">2016-05-05T16:58:03</p></div>
+        
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-05T16:18:03</p><p class="filterDatum">2016-05-05T16:18:03</p></div>
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-05T16:08:03</p><p class="filterDatum">2016-05-05T16:08:03</p></div>
+         <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-05T15:50:03</p><p class="filterDatum">2016-05-05T15:50:03</p></div>
+        
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-04T18:50:03</p><p class="filterDatum">2016-05-04T18:50:03</p></div>
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-04T08:50:03</p><p class="filterDatum">2016-05-04T08:50:03</p></div>
+         <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-05-01T08:50:03</p><p class="filterDatum">2016-05-01T08:50:03</p></div>
+        
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-04-21T08:50:03</p><p class="filterDatum">2016-04-21T08:50:03</p></div>
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-04-07T08:50:03</p><p class="filterDatum">2016-04-07T08:50:03</p></div>
+        
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2016-04-02T08:50:03</p><p class="filterDatum">2016-04-02T08:50:03</p></div>
+        
+        <div class="novosti">
+            <img src="house.jpg" alt="slika novosti" />
+            <h3>Inicijative</h3>
+            <p>Naša sekcija u ovom trenutku ima samo jednog starijeg člana, iako mnogi članovi sekcije imaju uslove da budu promovisani na to zvanje. Uslove za izbor možete naći na stranici IEEE. Da biste se kvalifikovali potrebna vam je podrška tri starija člana. Molimo kolege koje žele da budu promovisani da popune odgovarajući formular i da ga pošalju kolegici Brani Peruničić, kako bi ih kandidirala u ime sekcije. Ako imate teškoće da nađete starije članove koji bi vas podržali, javite se istoj osobi.</p>
+            <p class="datumObjave">2015-04-07T08:50:03</p><p class="filterDatum">2015-04-07T08:50:03</p></div>
+    </div>
+</body>
+</html>

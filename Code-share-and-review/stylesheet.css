@@ -1,0 +1,479 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.page_header {    
+    background-image: linear-gradient(#0067A7,#003F71);
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.page_header  h1 {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    top: 15px;
+    position: absolute;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+#header_content {
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    background-color: #717171;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+ul {
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    height: inherit;
+}
+
+.nav_button {
+    text-decoration: none;
+    padding-left: 17px;
+    padding-right: 17px;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav_button:hover {
+    background-color: black;
+}
+
+#content > section > h2 {
+    font-size: 10px;
+    color: transparent;
+    border-bottom: 1px solid #CBD2D6;
+}
+
+#latest_news {
+    width: 100%;
+}
+
+#latest_news > h2{
+    font-size: 20px !important;
+}
+
+#content > section > #latest_news > img{
+    width: 100%;
+    max-height: 220px;
+}
+
+#content > section article img {
+    width: 100%;
+    max-height: 120px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+#content > section article h2{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#content {
+    font-family: 'Arimo', sans-serif;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#content > section {
+    width: 70%;
+    float: left;
+    background-color: rgba(199, 199, 199, 0.31);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
+    border: solid #ccc 1px;
+    border-radius: 1px;
+    margin-bottom: 40px;
+}
+
+#content > section article {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+#content > section article p {
+    line-height: 115%;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#content > aside {
+    width: 29%; 
+    float: right;
+    margin-left: 1%;
+    background-color: rgba(199, 199, 199, 0.31);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3), inset 0 -1px 1px rgba(0,0,0,0.1);
+    border: solid #ccc 1px;
+    min-height: 300px;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#content > aside h3 {
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#content > aside p {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+#content > aside > article > h3{
+    padding-top: 9px;
+    border-top: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+#news_selection {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#news_selection > select {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.other_news {
+    /*float: left;
+    width: 48%;
+    display: inline-block;
+    padding: 0px !important;
+    margin-left: 6px;
+    margin-bottom: 25px;
+    max-height: 440px;
+    height: 430px;*/
+    border-top: 1px solid grey;
+    display: table-cell;
+    word-wrap: break-word;
+    width: 50%;
+    
+}
+
+.other_news_group {
+    display: table
+}
+
+.other_news_row {
+    display: table-row;
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    background-color: #efefef;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: dimgray;
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    height: 3em;
+}
+
+aside > ul {
+    width: 100%;
+    padding-left: 35px;
+
+}
+
+aside > ul > li {
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+aside > h3 {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*pocetak links stylesheeta*/
+
+#links {
+    font-family: 'Arimo', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#links > ul {
+    margin-top: 10px;
+    padding-left: 30px;
+    list-style-type: none;
+    font-size: 90%;
+}
+
+#links > ul > li{
+    max-width: 180px;
+}
+
+#links > ul > li:hover{
+    list-style-image: url("http://i.imgur.com/uPiGmBq.png");
+}
+
+#links > ul > li{
+    margin-bottom: 5px;
+}
+
+#links > h3 {
+    font-size: 98%;
+    margin: auto;
+    width: 60%;
+    padding-left: 20px;
+}
+
+/*pocetak contact stylesheeta*/
+
+form {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 25px !important;
+    width: 35%;
+    margin: auto;
+    background-color: lightgray;
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: 1px gray outset;
+    margin-bottom: 20px;
+}
+
+form > label {
+    display: block;
+    padding-bottom: 6px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+form > input {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+form > textarea {
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    height: 200px;
+    max-height: 500px;
+    margin: auto;
+}
+
+#send_button {
+    margin-top: 15px;
+    width: 20% !important;
+}
+
+/*pocetak languages stylesheeta*/
+table {
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 14px;
+    width: 60%;
+    margin: auto;
+    margin-top: 45px;
+    border: 3px solid grey;
+    margin-bottom: 20px;
+}
+
+table > caption {
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+table > thead > tr > th {
+    height: 40px;
+    border: 2px solid grey;
+    background-color: deepskyblue;
+}
+
+table > tbody > tr > td {
+    border: 1px solid grey;
+    height: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table > tbody > tr:nth-child(odd) { 
+    background-color:#eee; 
+}
+
+table > tbody > tr:nth-child(even) { 
+    background-color:#CACACA; 
+}
+
+span.news_datetime {
+    color: #484848;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+/*logo stylesheet*/
+#logo_container {
+    background-color: cornflowerblue;
+    width: 110px;
+    height: 60px;
+    border-radius: 4px;
+    border: 3px solid #0067A7;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+}
+
+#c_slovo_outer {
+    transform: rotate(9deg);
+    margin-top: 8px;
+    margin-left: 5px;
+    background-color: #FF9940;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+}
+
+#c_slovo_inner {
+    transform: rotate(3deg);
+    margin-top: 8px;
+    margin-left: 5px;
+    position: relative;
+    margin-left: 9px;
+    top: 7px;
+    width: 25px;
+    height: 25px;
+    background-color: cornflowerblue;
+    border-radius: 20%;
+}
+
+#c_slovo_odsjecak {
+    margin-left: 5px;
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    background-color: cornflowerblue;
+    height: 53px;
+    width: 30px;
+}
+
+#s_slovo_outer {
+    width: 30px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #CC4F14;
+    position: absolute;
+    top: 8px;
+    left: 35px;
+}
+
+.s_slovo_odsjecak {
+    height: 12px;
+    width: 25px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 42px;
+    top: 13px;
+}
+
+#drugi_s_odsjecak {
+    top: 31px !important;
+    left: 33px;
+}
+
+#r_slovo_left {
+    width: 8px;
+    background-color: #3D4099;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    left: 70px;
+}
+
+#r_slovo_rec {
+    width: 17px;
+    height: 25px;
+    background-color: #3D4099;
+    position: absolute;
+    left: 78px;
+    top: 8px;
+    border-radius: 10%;
+}
+
+#r_slovo_rec_inner {
+    position: absolute;
+    width: 76%;
+    height: 58%;
+    top: 5px;
+    left: -1px;
+    border-radius: 10%;
+    transform: rotate(10deg);
+    background-color: cornflowerblue;
+}
+
+#r_slovo_nogica {
+    width: 7px;
+    background-color: #3D4099;
+    height: 29px;
+    position: absolute;
+    top: 22px;
+    left: 80px;
+    transform: rotate(-50deg);
+    border-radius: 5%;
+}

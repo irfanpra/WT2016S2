@@ -1,0 +1,1 @@
+Do it yourself blog made in static html and css.

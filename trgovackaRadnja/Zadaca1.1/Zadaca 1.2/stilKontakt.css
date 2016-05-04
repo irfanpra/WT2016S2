@@ -1,0 +1,200 @@
+﻿body {
+  background-image: url("https://i.ytimg.com/vi/V1-QVmrlbyU/maxresdefault.jpg"); 
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.formaOkvir {
+  height: 40%;
+  width: 24%;
+  position: absolute;
+  top: 40%;
+  left: 37%;
+}
+
+form {
+  background-color: #FAFAD2;
+  opacity: 0.8;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-radius: 25px;
+}
+label {
+  font-weight: bold;
+}
+
+#potvrdi {
+  opacity: 1;
+  float: right;
+  padding-right: 1px;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 8px;
+  width: 71%;
+}
+
+img {
+  opacity: 0.8;
+  border-radius: 25px;
+}
+
+/*
+---LOGO
+*/
+
+.xDesniDio, .xLijeviDio{
+  height: 200px;
+  width: 150px;
+  margin-right: 0px;
+  position: absolute;
+  left: 100px;
+  overflow: hidden;
+  transform: translateX(100px);
+  transition:all 0.8s;
+}
+
+.xDesniDio {
+  background: #696969;
+  transform: skewX(-45deg);
+}
+
+.xLijeviDio {
+  background: DarkCyan;
+  transform: skewX(45deg);
+}
+
+.xSredina {
+  height: 66.3px;
+  width: 66.3px;
+  background: white;
+  position: absolute;
+  left: 121.8px;
+  top: 54.7px;
+  transform: skewX(-40deg);
+  overflow: hidden;
+  transform: rotate(45deg);
+  border: 20px solid white;
+  border: 20px solid #696969;
+  border-right: 20px solid DarkCyan;
+  border-left: 20px solid DarkCyan;
+  transition:all 0.8s;
+}
+
+.xSredina:hover {
+  background: lime;
+  border-top: 20px solid DarkCyan;
+  border-bottom: 20px solid DarkCyan;
+  border-right: 20px solid #696969;
+  border-left: 20px solid #696969;
+}
+
+.xLijeviDio:hover {
+ background: #696969;;
+}
+
+.xDesniDio:hover {
+  background: DarkCyan;
+}
+
+.linijaGornja, .linijaDonja {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  left: 300px;
+}
+
+.linijaGornja {
+  background: #696969;
+}
+
+.linijaDonja {
+  background: DarkCyan;
+  position: absolute;
+  top: 178px;
+}
+
+/*
+--MENI
+*/
+
+.home {
+  height: 80px; 
+  width: 80px;
+  position:relative;
+  left: 410px;
+  top: 35px;
+}
+
+.car, .contact, .table, .links {
+  height: 70px; 
+  width: 70px;
+  position:relative;
+  top: 30px;
+}
+
+.car {
+  position:relative;
+  left: 485px;
+}
+
+.contact {
+  position:relative;
+  left: 565px;
+}
+
+.table {
+  position:relative;
+  left: 644px;
+}
+
+.links {
+  position: relative;
+  left: 720px;
+  border-radius: 5px;
+}
+
+.a {
+  position: relative;
+  left: 480px;
+}
+
+.k {
+  position: relative;
+  left: 560px;
+}
+
+.t {
+  position: relative;
+  left: 630px;
+}
+
+.l {
+  position: relative;
+  left: 700px;
+}
+
+.a:hover, .n:hover, .t:hover, .k:hover, .l:hover {
+  color: DarkCyan;
+}
+
+/*
+--NATPISI
+*/
+
+A {
+  position: relative;
+  font-weight: bold;
+  left: 405px;
+  top: 140px;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+
+

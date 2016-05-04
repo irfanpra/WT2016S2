@@ -1,0 +1,101 @@
+body {
+        background-image: url("Slike/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		overflow-x:hidden;
+		overflow-y:hidden;
+		display:block;
+     }
+
+#Naslov h1   {
+               text-align:center;
+               font-size: 70pt;
+               font-family:monotype corsiva;
+               margin-top: -2vw;
+
+            }
+
+#meni{
+        margin-top:-6vw;
+        padding-bottom:0.3vw;
+		padding-top:0.3vw;
+}
+#meni ul li {
+                display: inline;
+                text-align: left;
+                font-size: 30pt;
+                font-style:oblique;
+                font-family:monotype corsiva;
+				margin:4vw;
+				margin-left:6vw;
+				margin-top:-4vw;
+              }
+#meni ul a {
+           text-decoration: none;
+           color: #330000;
+         }
+#LOGO {
+	    height:4vw;
+        width:4vw;
+		background-color:transparent;
+        border-radius:50%;
+		margin-top:-29vw;
+		margin-left:5vw;
+		border:0.1vw solid black;
+		position:absolute;
+	   -webkit-animation:mymove 5s infinite;
+        animation:mymove 5s infinite;
+}
+@keyframes mymove {
+                    50% { 
+					     border:1vw solid #800000;
+					     background-color:#D2B48C;
+						 }
+					    }
+#LOGO p {
+	     font-family:monotype corsiva;
+		 font-size:30pt;
+		 margin-top:0vw;
+		 margin-left:0.7vw;		 
+}
+#Link p{
+	    font-family:monotype corsiva;
+		font-size:25pt;
+	    margin-left:5vw;
+}
+#Link ul li a {
+            text-decoration:none;
+			color:black;
+          } 
+			  
+ #Link1 li {
+	list-style:none;
+	font-size:25pt;
+	margin-left:5vw;
+	font-family:monotype corsiva;
+}
+#Link1 li:hover 
+                              {	               
+				list-style:url("Slike/facebook.png");		  
+               }
+#Link2 li {
+	list-style:none;
+	font-size:25pt;
+	margin-left:5vw;
+	font-family:monotype corsiva;
+}
+#Link2 li:hover 
+                              {	               
+			    list-style-image:url("Slike/twitter.png");	  
+               }
+#Link3 li {
+	list-style:none;
+	font-size:25pt;
+	margin-left:5vw;
+	font-family:monotype corsiva;
+}
+
+#Link3 li:hover 
+                              {	               
+			    list-style-image:url("Slike/instagram.png");	  
+               } 

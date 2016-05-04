@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Planinski turizam</title>
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="myjs.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<header class="main-header">
+				<div id="logo">
+					<h3>Planinski</h3>
+					<p>turizam u BiH</p>
+				</div>
+				<ul class="main-nav">
+					<li><a href="index.html">Naslovnica</a></li>
+					<li><a href="planine.html">Planine</a></li>
+					<li><a href="linkovi.html">Linkovi</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</header>
+			<div class="contact">
+				<form>
+					<fieldset>
+						<legend>Kontakt forma:</legend>
+						<div class="form-group">
+							<label for="ime">Ime</label>
+							<input type="text" id="ime" onkeypress="validirajIme()">
+						</div>
+						<div class="form-group">
+							<label for="prezime">Prezime</label>
+							<input type="text" id="prezime" onkeypress="validirajPrezime()">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" id="email" onkeypress="validirajEmail()">
+						</div>
+						<div class="form-group">
+							<label for="tel">Telefon</label>
+							<input type="tel" id="tel" onkeypress="validirajTelefon()">
+						</div>
+						<div class="form-group">
+							<label for="bday">Datum rođenja</label>
+							<input type="date" id="bday">
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Pošalji">
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<footer>
+        	<span>&copy; Copyright Planinski turizam u BiH</span>
+    	</footer>
+	</body>
+</html>

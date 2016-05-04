@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Play:400,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext);
+
+.Linkovi a
+{	font-family:Audiowide;
+	color:black;
+	}
+
+
+.Linkovi ul li
+{
+	list-style-type: none;
+	text-decoration:none;
+}
+
+
+.Linkovi ul li:hover
+{	
+	list-style-image:url('slika.png');
+}
+
+.Linkovi
+{
+	width:150px;
+}

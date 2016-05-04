@@ -1,0 +1,90 @@
+
+.divC
+{
+	width: 70%;
+	height: 675px;
+	background-color: #ff8000;
+	border-style: solid;
+	border-color: #ff8000;
+	border-radius: 5px;
+	margin: 5px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.divC:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ff9900;
+		border-color: #ff9900;
+}
+.slikino3
+{
+	width:50%; 
+	height:220px;
+	border-radius: 5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.noviDiv
+{
+	width:95%;
+	height: 230px;
+	margin:5px;
+}
+.tabela3
+{
+	width:98%;
+	height: 50%;
+	margin:1%;
+
+	border-style: solid;
+	border-color: #ff8000;
+	border-width:5px;
+    font-family: verdana;
+    border-radius: 5px;
+    color:white;
+	font-size: 0.8vw; /*bilo 14px*/
+	font-weight: bold;
+}
+
+.heder
+{
+	background-color:#00cccc;
+	border-style: solid;
+	border-color:#00cccc;
+	border-radius: 5px;
+	font-size: 1vw;
+	text-align: center;
+}
+.donji
+{
+	text-align: justify;
+}
+
+.lijevi
+{
+	background-color:#00cccc;
+	border-style: solid;
+	border-color:#00cccc;
+	border-radius: 5px;
+	text-align: right;
+	width: 25%;
+}
+.desni
+{
+	background-color:#92f6f7;
+	border-style: solid;
+	border-color:#92f6f7;
+	border-radius: 5px;
+	font-weight: normal;
+	width: 25%;
+}
+.maliDiv
+{
+	margin-top: 3%;
+	margin-right: 3%;
+}

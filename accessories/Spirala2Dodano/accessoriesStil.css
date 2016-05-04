@@ -1,0 +1,311 @@
+#accessoriesLogo
+{
+color: purple;
+width:60%;
+height:50%;
+border-radius:50%;
+font-size:6vw;
+line-height:100%;
+text-align:center;
+background:pink;
+margin-left: 1%;
+opacity: 0.7; 
+
+}
+body
+{
+	background: url('biser.jpg') no-repeat center center fixed;
+	background-size: cover;
+	overflow-y: scroll;
+    overflow-x: hidden;
+	/*font-size:auto;*/
+	
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0;
+    overflow: hidden;
+    background-color:#f5f5f5;
+
+}
+
+#nav li {
+    float: left;
+	font-family: pristina;
+
+}
+
+#nav li a {
+    display: block;
+   		color:purple;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+	font-size:2.7vw; /* 30px; */
+}
+
+#nav li a:hover:not(.active) {
+    background-color: gray;
+}
+
+.active {
+    background-color: pink;
+				opacity: 0.6;
+}
+
+
+
+.naslov
+{
+	color:#8b1a1a;
+	font-size: 2.4vw;
+	
+}
+pre.paragrafID
+{
+	font-size: 17px;
+	font-weight: bold;
+}
+pre.paragrafID a
+{
+	color: red;
+	
+}
+
+.tabela
+{
+	width: 90%;
+	background-color: white;
+	border: 1px solid #eedfcc;
+    border-collapse: collapse;
+	text-align: center;
+	font-size: 3vw;
+	 margin: 15px 0;
+
+}
+
+table.tabela { table-layout:fixed; }
+table.tabela td { overflow: hidden; }
+table.tabela
+{
+	 margin-left:auto; 
+    margin-right:auto;
+}
+.tabela #prviRed
+{
+	background-color:#eedfcc;
+		padding: 7px;
+		font-family: pristina;
+}
+.tabela .neparan
+{
+	background-color:#f0f8ff;
+		padding: 15px;
+}
+.tabela .paran
+{
+	background-color:#ffefdb;
+		padding: 15px;
+}
+.tabela tr 
+{ 
+	line-height: 175px;
+}
+.tabela td img
+{
+	width: 100%;
+    height: auto;
+	text-align: center;
+	vertical-align:middle;
+}
+.tabela .neparan,.tabela .paran, .kombinacija1
+{
+	font-family:pristina;
+	color:purple;
+}
+.tabela .neparan .slika
+{
+	height:100%;
+	width:100%;
+}
+
+input[type=number],input[type=email]
+{
+	display:flex;
+	box-sizing: border-box;
+	width:13%;
+	border: 3px solid silver;
+	border-radius: 6px;
+	padding:8px;	
+	
+}
+input
+{
+		margin: 0;
+}
+div#Forma
+{
+	width:700%;
+
+	margin-right:auto;
+	margin-left:auto; 
+	font-family: pristina;
+	color:white;
+	font-size: 2vw;
+	
+
+}
+div#NaslovForme
+{
+	text-align:center;
+	border:1px solid #eedfcc;
+	background-color: #eedfcc;
+	border-radius: 6px;
+	font-family: pristina;
+	color:white;
+	font-size: 2.5vw;
+}
+div#OkvirForme 
+{
+	margin:auto;
+	width: 20%;
+	border: 1px solid #cdc0b0;
+	padding:4px;
+	background-color:#cdc0b0;
+		margin-top:1.5vw;
+
+}
+.button
+{
+	background-color:#eedfcc;
+		color:white;
+		font-size: 2vw;
+		font-family: pristina;
+		cursor: pointer;
+		
+}
+
+.paragrafJedan
+{
+	clear:both;
+	width:100%;
+}
+
+
+
+.lijevaKolona, .desnaKolona{
+	width:40%;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	
+	
+}
+
+.lijevaKolona img, .desnaKolona img{
+	height:15vw;
+	width: 15vw;
+	float: left;
+	padding: 2px 2px 2px 2px;
+}
+
+.lijevaKolona p, .desnaKolona p{
+	text-align: justify;
+	padding: 2px 2px 2px 2px;
+}
+
+.lijevaKolona li, .desnaKolona li{
+	height: 24vw;
+	/*width: 400 px; */
+	overflow:hidden;       
+	padding: 2px 2px 2px 2px;
+				
+	
+}
+.lijevaKolona p, .desnaKolona p{
+	font-family: pristina;
+	font-size:1.5vw;
+}
+
+.main{
+	background-color:Red;
+	width:100%;
+	float:left;
+	display:inline;
+}
+
+.item{
+	background-color:Green;
+	width:50%;
+	float:left;
+	
+}
+.meni .Linkovi a
+{
+	color:purple;
+	text-decoration: none;
+
+}
+.Linkovi { 
+    list-style:none;
+	font-family:pristina;
+	font-size:2vw;
+
+}
+
+.Linkovi li:hover { 
+    list-style-image: url('ruz.png') ;
+		text-decoration: underline;
+	
+}
+
+.meni .Linkovi li:hover .ruz { 
+	list-style-image: url('ruz.png') ;
+	color: hotpink;
+}
+.meni
+{
+	border: 1px solid #fff8dc;
+	margin: 10px;
+    height: 15vw;
+    width: 24vw;
+	background-image:url("x.png");
+	border-radius:10px;
+
+}
+.kontaktDiv
+{
+	background-color: #cdb79e;
+	color:white;
+	font-family:pristina;
+	font-size:3vw;
+	text-align:center;
+	margin-top:2.8vw;
+	border-radius:10px;
+	margin-left:10%;
+	margin-right:10%;
+	opacity:0.8;
+}
+
+#novosti
+{
+	margin-top: 0.5vw;
+}
+#novosti ul li 
+{
+	color: white;
+	font-size: 1.7vw;
+	margin-right: 1vw;
+}
+.lijevaKolona ul li .obavijest
+{	text-align: right;
+    font-size: 1vw;
+	color: red;
+}
+.desnaKolona ul li .obavijest
+{
+	text-align: right;
+    font-size: 1vw;
+	color:red;
+}

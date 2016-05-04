@@ -1,0 +1,81 @@
+#logo {
+
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.section {
+
+	width: 35%;
+	height: 20%;
+	border-radius: 10%;
+	border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , gray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red , gray); /* Standard syntax */
+
+}
+
+#first-section {
+
+	position: absolute;
+	left: 12%;
+	top: 55%;
+}
+
+#second-section {
+
+	position: absolute;
+	left: 25%;
+	top: 45%;
+}
+
+#third-section {
+
+	position: absolute;
+	left: 38%;
+	top: 35%;
+}
+
+#fourth-section {
+
+	position: absolute;
+	left: 51%;
+	top: 25%;
+}
+
+
+#wheel-outer {
+
+	width: 72%;
+	height: 72%;
+	position: absolute;
+	top: 14%;
+	left: 14%;
+	border-radius: 50%;
+    background-color: black;
+}
+
+#wheel-inner {
+
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	border-radius: 50%;
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(black 1%, gray 99%); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(black 1%, gray 99%); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(black 1%, gray 99%); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(black 1%, gray 99%); /* Standard syntax */
+}
+
+p {
+	margin: 25% 0% 0% 5%;
+}

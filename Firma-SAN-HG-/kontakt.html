@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Web Stranica</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="kontakt.css" type="text/css"/>
+    
+    
+</head>
+
+<body class="body">
+    <header class="mainHeader">
+    <nav><ul>
+        <li><a href="naslovna.html">NASLOVNA</a></li>
+        <li><a href="linkovi.html">LINK</a></li>
+        <li><a href="tabela.html">TABELA</a></li>
+        <li class="active"><a href="kontakt.html">KONTAKT</a></li>
+        </ul></nav>
+    </header>
+    
+    <div id="forma"> 
+    <form class="form-horizontal">
+
+<div class="form-group">
+    <label class="col-md-4 control-label" for="imeiprezime"><b>Ime i Prezime</b></label>  
+  <div class="col-md-4">
+  <input id="imeiprezime" name="imeiprezime" type="text" placeholder="ime i prezime" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="dob"><b>Datum rođenja</b></label>  
+  <div class="col-md-4">
+  <input id="dob" name="dob" type="text" placeholder="datum rodjenja" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="brojtelefona"><b>Broj telefona</b></label>  
+  <div class="col-md-4">
+  <input id="brojtelefona" name="brojtelefona" type="text" placeholder="Broj telefona" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email"><b>E-mail</b></label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="e-mail" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label"><b>Status</b></label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="status-0">
+      <input type="radio" name="status" id="status-0" value="1" checked="checked">
+      Student
+    </label>
+    </div>
+  <div class="radio">
+    <label for="status-1">
+      <input type="radio" name="status" id="status-1" value="2">
+      Nezaposlen
+    </label>
+    </div>
+  <div class="radio">
+    <label for="status-2">
+      <input type="radio" name="status" id="status-2" value="3">
+      Zaposlen
+    </label>
+    </div>
+  </div>
+</div>
+<div class="textareabox"><textarea name="message" class="form-control" id="message"  placeholder="Poruka ... "></textarea>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prijava"></label>
+  <br/>
+  <div class="col-md-4">
+    <button id="prijava" name="prijava" class="btn btn-success"><b>Potvrda</b></button>
+  </div>
+</div>
+ </div>
+
+</form>
+   
+        </div>
+
+    
+    
+
+    
+    <footer class="mainFooter">
+    
+            <p>Copyright &copy; <a href="#" title="SG.Codes"></a>Copyright by SG.Codes (Selma Glavic) 2016</p>
+    
+    </footer>
+
+</body>
+
+
+</html>

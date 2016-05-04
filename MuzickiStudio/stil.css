@@ -1,0 +1,439 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+body {
+	background-image: url("Slike/pozadina.jpg");
+	margin:0;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+#zaglavlje {
+	background-color:black;
+	height:10vw;
+	color:green;
+	font-family:Gabriela;
+	text-align:center;
+	opacity: 0.8;
+}
+#zaglavlje h1{
+	font-size: 4.5vw;
+	margin:0;
+	color: white;
+	float: left;
+	padding: 3%;
+	position: absolute;
+	width: 94%;
+	text-align: center;
+}
+
+#meni {
+	clear:both;
+	background-color: white ;
+	opacity: 0.9;
+	padding:0.5%;
+	height:1.5vw;
+	font-size:1.3vw;
+}
+
+#meni>ul {
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+#meni>ul>li {
+	list-style-type:none;
+	display:inline;
+	margin-right: 3vw;
+}
+
+#meni a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+#meni a:hover {
+	color: #FF8080;
+	text-decoration: none;
+}
+
+#meni a:active {
+	text-decoration: none;
+	outline: 0.1vw solid red;
+	color: #8C0000;
+}
+
+.GlavniDioCoveri {
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	display: inline-block;
+}
+
+#podnozje {
+	background-color: #cc9;
+	color:black;
+	height:1.5vw;
+	padding-left:3%;
+	clear: both;
+	position: relative;
+	bottom:0;
+}
+
+#logo {
+	height: 6vw;
+	position:absolute;
+	width: 6vw;
+	border-radius: 10%;
+	transform: rotate(45deg);
+	background: #e6e6e6;
+	margin:2%;
+	float:right;
+}
+
+#kruzic {
+	position: absolute;
+	height: 24%;
+	width: 21%;
+	background: black;
+	top: 59%;
+	left: 52%;
+	border-radius: 50%;
+}
+
+#linija {
+	position:absolute;
+	border-radius: 50%/100px 100px 0 0;
+	top:7%;
+	left:40%;
+	width:6%;
+	height: 66%;
+	transform: rotate(-45deg);
+	background-color: black;
+
+}
+#logo:hover{
+	border-radius: 50%;
+	border:solid 0.4vw #cccccc;
+}
+
+.Pjesma {
+	height:30%;
+	width:30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+}
+.Pjesma a {
+	position: relative;
+	display: inline-block;
+	text-align:center;
+	font-size:1.3vw;
+	padding:0.5vw;
+	height: auto;
+	width:auto;
+}
+
+.Pjesma a span {
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	top: 50%;
+	left: 50%;
+	margin-top: -1vw;
+	margin-left: -50%;
+	width: 100%;
+	height: 3.3vw;
+	color: white;
+}
+
+.Pjesma img {
+	width: 15.5vw;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 0.5vw double white;
+}
+
+.Pjesma img:hover {
+	opacity:0.7;
+}
+
+.omeni {
+	color:white;
+	font-size: 1.5vw;
+	text-align: left;
+}
+.omeni p {
+	float: left;
+	padding-top: 2%;
+	padding-left: 2%;
+	width: 45%;
+}
+.omeni img {
+	float: right;
+	width: 30%;
+	margin-top: 3%;
+	margin-right: 15%;
+	height: auto;;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 0.3vw groove red;
+}
+
+.omeni a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+.omeni a:hover {
+	color: #FF8080;
+	text-decoration: none;
+}
+
+.omeni a:active {
+	text-decoration: none;
+	outline: 0.1vw solid red;
+	color: #8C0000;
+}
+
+.GlavniDioNovosti {
+	margin-top: 3.5vw;
+	width: 80%;
+	margin-bottom: 20vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.GlavniDioNovosti .Novost
+{
+	clear: both;
+	position: relative;
+	display: inline-block;
+	text-align:center;
+	font-size:1.7vw;
+	color: red;
+	padding:0.3vw;
+	height: 14vw;
+	width:45%;
+	background-color:#E8e8e8;
+	opacity: 0.8;
+	border: 0.3vw double red;
+	margin: 0.5vw;
+	overflow: hidden;
+	background-size: contain;
+	overflow: hidden;
+}
+
+.GlavniDioNovosti .Novost p
+{
+	padding: 1%;
+	text-align: center;
+	position: relative;
+	float: left;
+	vertical-align: middle;
+	width: 49%;
+	justify-content:center;
+	align-content:center;
+}
+
+
+
+.Novost img
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 49%;
+	float: right;
+}
+
+.Novost:hover {
+	opacity:0.7;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	border:2vw;
+	font-size: 1.5vw;
+	text-align: center;
+	height: 25em;
+	width: 60%;
+	opacity: 0.75;
+}
+
+table.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+tr {
+	color: white;
+	background-color: #4A0E0E;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: black;
+}
+
+.paran {
+	background-color: #851818;
+}
+
+.prvi {
+	background-color: #188585;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 1vw 1.5vw;
+	margin: 1vw 0;
+	display: inline-block;
+	border: 0.3vw solid #ccc;
+	border-radius: 0.3vw;
+	box-sizing: border-box;
+}
+
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 0.7vw;
+	border: 0.2vw double grey;
+	width: 8vw;
+	height: 3vw;
+	border-radius: 0.3vw;
+	cursor: pointer;
+	margin-top: 2vw;
+	margin-left: auto;
+	font-size: 1vw;
+	margin-right: auto;
+	display:block;
+	text-align: center;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+input[type=email], input[type=text]
+{
+	display:flex;
+	box-sizing: border-box;
+	width:30vw;
+	border: 0.2vw solid silver;
+	border-radius: 0.4vw;;
+	font-family: serif;
+	font-size: 1.2vw;
+	height: 2vw;
+}
+
+textarea {
+	display:flex;
+	box-sizing: border-box;
+	width:30vw;
+	border: 0.2vw solid silver;
+	border-radius: 0.4vw;;
+	font-family: serif;
+	overflow: hidden;
+	resize: none;
+	height: 8vw;
+}
+
+
+#kontakt {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	border-radius: 4vw;
+	background-color: #f2f2f2;
+	padding: 3%;
+	width: 30%;
+	opacity: 0.95;
+	font-weight: bold;
+	background-color:white;
+	font-size: 1.1vw;
+}
+
+#kontaktiraj  {
+	clear: both;
+	color: white;
+	font: Serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 2vw;
+	height: 4vw;
+	margin: 1vw;
+}
+
+#dugme {
+	color: white;
+	background-color: #575757;
+}
+
+#mail {
+	padding: 1%;
+}
+
+.drustvenemreze {
+	padding: 9vw;
+	list-style:none;
+	float: left;
+}
+
+.drustvenemreze a
+{
+	text-decoration: none;
+	font-size: 3vw;
+	color: white;
+}
+
+
+.drustvenemreze li:hover {
+	list-style-image: url("Slike/strelica.png") ;
+}
+
+a.fb:hover, a.yt:hover {
+	color:silver;
+}
+
+.vrijeme {
+	text-align:center;
+	font-size:0.9vw;
+	color:grey;
+	margin-bottom: 0;
+	padding-bottom:0;
+	padding-top: 0.3vw;
+	position: absolute;
+	clear:both;
+	width: 49%;
+}
+
+select#izdvoji {
+    width: 20%;
+}
+
+#izdvoji  {
+	font-size: 1.3vw;
+	opacity:0.8;
+	color: white;
+	margin-left: 2vw;
+	background-color: #DE1B1B;
+	border: 0.5vw double white;
+}
+
+#opcija1, #opcija2, #opcija3 {
+	color: #FA6464;
+	background-color: white;
+}
+
+.pomvrijeme {
+	display: none;
+}
+
+#email_hint:hover {
+	opacity: 0.3;
+}
+
+#telefon_hint:hover {
+	opacity: 0.3;
+}

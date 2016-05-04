@@ -1,0 +1,153 @@
+.wrapper{
+    text-align: center;
+}
+.circle{
+    border-radius: 100%;
+    width: 100px;
+    border: 1px solid #333;
+    display: block;
+    box-shadow: 0px 5px 5px #111;
+    cursor: pointer;
+}
+#text{
+    font-family: Georgia;
+    font-size: 45px;
+    font-weight: solid;
+    color: #9999CC;    
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+}
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+li.externalLink:hover {
+    list-style-image: url('../icon/ulIcon.png');
+}
+ul.horizontal{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul.horizontal li{
+	float: left;
+}
+
+ul.horizontal li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+ul.horizontal li:hover {
+	background-color: #111;
+}
+
+ul.horizontal li a.current {
+	background-color: #111;
+}
+#container {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+header {
+	height: 126px;
+}
+
+#left {
+	width: 320px;
+	float: left;
+}
+
+#middle {
+	width: 294px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	background: #f0efef;
+}
+
+#right {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+
+footer {
+	clear: both;
+	padding: 0 15px;
+	text-align:center;
+	background-color:#333;
+	color:#fff;
+}
+
+header, #left, #left1, #left2, #middle, #right,#center, #aboutMe, #videoContent, #blogContent, .wrapper {
+	margin-bottom: 5px;
+}
+
+#left1{
+	padding: 5px 15px;
+}
+
+#left2{
+	padding: 5px 15px;
+}
+
+#center{
+	padding: 5px 15px;
+}
+
+#aboutMe{
+	padding: 5px 15px;
+}
+
+#aboutImg { 
+	float: left;
+	margin-right:10px;
+	max-width: 200px;
+	max-height: auto;
+	padding: 5px 15px;
+}
+
+#form{
+	padding: 5px 15px;
+	width: 30%;
+    margin: 5px auto; 
+	text-align: center;
+	background-color:#333;
+	color:#fff;
+	margin-bottom:25px;
+}
+
+#videoContent{
+	padding: 5px 15px;
+}
+#blogContent{
+	padding: 5px 15px;
+}
+#videoDesc{
+	width: 300px;
+	height: 306px;
+	float: right;
+	padding: 5px 15px;
+	border-left: thick solid #111;
+}
+#container, #left1, #left2, #middle, #right,#rightLong, #form, #videoContent,#blogContent, footer {
+	border: solid 1px #ccc;
+}

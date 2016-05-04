@@ -1,0 +1,565 @@
+body {
+        background-image:url("Slike/background.jpg");
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+		overflow-x:hidden;
+		overflow-y:hidden;
+		display:block;
+     }
+
+#Naslov h1   {
+               text-align:center;
+               font-size:70pt;
+               font-family:monotype corsiva;
+               margin-top:-2vw;
+
+            }
+
+#meni{
+        margin-top:-6vw;
+        padding-bottom:0.3vw;
+		padding-top:0.3vw;
+}
+#meni ul li {
+                display:inline;
+                text-align:left;
+                font-size:30pt;
+                font-style:oblique;
+                font-family:monotype corsiva;
+				margin:4vw;
+				margin-left:6vw;
+				margin-top:-4vw;
+              }
+#meni ul a {
+                text-decoration:none;
+                color:#330000;
+                
+              }
+
+
+#LOGOKnjizare {
+	    height:4vw;
+        width:4vw;
+		background-color:transparent;
+        border-radius:50%;
+		margin-top:-47vw;
+		margin-left:5vw;
+		border:0.1vw solid black;
+	   -webkit-animation:mymove 5s infinite;
+        animation:mymove 5s infinite;
+}
+@keyframes mymove {
+                    50% { 
+					     border:1vw solid #800000;
+					     background-color:#D2B48C;
+						 }
+					    }
+#LOGOKnjizare p {
+	     font-family:monotype corsiva;
+		 font-size:30pt;
+		 margin-top:0vw;
+		 margin-left:0.7vw;		 
+}
+#red {
+	background-color:#CC9966;
+	border:1vw double #331100;
+	height:16vw;
+	width:33vw;
+	margin-left:14.5vw;
+	margin-top:-1vw;
+}
+#red h1 {
+		 font-family:monotype corsiva;
+		 font-size:15pt;
+		 margin-top:-0.1vw;
+		 margin-left:1vw;
+}
+#red p {
+		 font-family:monotype corsiva;
+		 font-size:12pt;
+		 margin-top:-1.1vw;
+		 margin-left:1vw;
+}
+#okvir {
+	border:0.1vw solid #331100;
+	border-radius:2vw;
+	background-color:transparent;
+	background-image:url("Slike/pribor5.jpg");
+	background-repeat:no-repeat;
+	height:11.5vw;
+	width:30vw;
+	margin-left:1vw;
+	margin-top:-0.5vw;
+}
+#redd {
+	background-color:#CC9966;
+	border:1vw double #331100;
+	height:16vw;
+	width:33vw;
+	margin-left:14.5vw;
+	margin-top:0.5vw;
+}
+#redd h1 {
+		 font-family:monotype corsiva;
+		 font-size:15pt;
+		 margin-top:-0.1vw;
+		 margin-left:1vw;
+}
+#redd p {
+		 font-family:monotype corsiva;
+		 font-size:12pt;
+		 margin-top:-1.1vw;
+		 margin-left:1vw;
+}
+#ok {
+	border:0.1vw solid #331100;
+	border-radius:2vw;
+	background-color:transparent;
+	background-image:url("Slike/cestitke1.jpg");
+	background-repeat:no-repeat;
+	height:11.5vw;
+	width:30vw;
+	margin-left:1.5vw;
+	margin-top:-0.5vw;
+}
+#kolona {
+	background-color:#CC9966;
+	border:1vw double #331100;
+	height:16vw;
+	width:33vw;
+	margin-left:50vw;
+	margin-top:-36.3vw;
+	
+}
+#kolona h1 {
+		 font-family:monotype corsiva;
+		 font-size:15pt;
+		 margin-top:-0.1vw;
+		 margin-left:1vw;
+}
+#kolona p {
+		 font-family:monotype corsiva;
+		 font-size:12pt;
+		 margin-top:-1.1vw;
+		 margin-left:1vw;
+		 margin-top:-1vw;
+}
+#okv {
+	border:0.1vw solid #331100;
+	border-radius:2vw;
+	background-color:transparent;
+	background-image:url("Slike/foto4.jpg");
+	background-repeat:no-repeat;
+	height:11.5vw;
+	width:30vw;
+	margin-left:1.5vw;
+	margin-top:-0.5vw;
+}
+#kolonaa {
+	background-color:#CC9966;
+	border:1vw double #331100;
+	height:16vw;
+	width:33vw;
+	margin-left:50vw;
+	margin-top:0.5vw;
+
+}
+#kolonaa h1 {
+	     font-family:monotype corsiva;
+		 font-size:15pt;
+		 margin-top:-0.1vw;
+		 margin-left:1vw;
+}
+#kolonaa p {
+		 font-family:monotype corsiva;
+		 font-size:15pt;
+	     text-align:center;
+		 margin-top:5vw;
+}
+body {
+        background-image: url("Slike/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		overflow-x:hidden;
+		overflow-y:hidden;
+		display:block;
+     }
+
+#Naslov h1   {
+               text-align:center;
+               font-size: 70pt;
+               font-family:monotype corsiva;
+               margin-top: -2vw;
+
+            }
+
+#meni{
+        margin-top:-6vw;
+        padding-bottom:0.3vw;
+		padding-top:0.3vw;
+}
+#meni ul li {
+                display: inline;
+                text-align: left;
+                font-size: 30pt;
+                font-style:oblique;
+                font-family:monotype corsiva;
+				margin:4vw;
+				margin-left:6vw;
+				margin-top:-4vw;
+              }
+#meni ul a {
+                text-decoration: none;
+                color: #330000;
+                
+              }
+#Tabela {
+         font-family:monotype corsiva;
+         border-collapse: collapse;
+         width: 100%;
+		 border-radius:25px;
+		 
+		 
+      }
+
+#Tabela td, #Tabela th {
+                       border: 5px solid black;
+                       text-align:center;
+                       padding: 8px;
+					   font-size:20pt;
+                    }
+
+#Tabela tr:nth-child(even)
+                                                 {
+						  background-color:#cd853f;
+						 }
+
+#Tabela tr:hover {
+	              background-color:#ddd;
+			    }
+
+#Tabela th {
+             padding-top: 12px;
+             padding-bottom: 12px;
+             background-color:#8b4513;
+             color:black;
+			 font-size:20pt;
+			 width:10%;
+          }	
+#KrajKnjige p{
+	      font-family:monotype corsiva;
+		  text-align:center;
+		  font-size:20pt;
+       }
+#LOGOKnjige {
+	    height:4vw;
+        width:4vw;
+		background-color:transparent;
+        border-radius:50%;
+		margin-top:-45.5vw;
+		margin-left:5vw;
+		border:0.1vw solid black;
+	   -webkit-animation: mymove 5s infinite;
+        animation: mymove 5s infinite;
+}
+@keyframes mymove {
+                    50% { 
+					     border:1vw solid #800000;
+					     background-color:#D2B48C;
+						 }
+					    }
+#LOGOKnjige p {
+	     font-family:monotype corsiva;
+		 font-size:30pt;
+		 margin-top:-0.1px;
+		 margin-left:0.7vw;
+}
+body {
+        background-image: url("Slike/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		overflow-x:hidden;
+		overflow-y:hidden;
+		display:block;
+     }
+
+#Naslov h1   {
+               text-align:center;
+               font-size: 70pt;
+               font-family:monotype corsiva;
+               margin-top: -2vw;
+
+            }
+
+#meni{
+        margin-top:-6vw;
+        padding-bottom:0.3vw;
+		padding-top:0.3vw;
+}
+#meni ul li {
+                display: inline;
+                text-align: left;
+                font-size: 30pt;
+                font-style:oblique;
+                font-family:monotype corsiva;
+				margin:4vw;
+				margin-left:6vw;
+				margin-top:-4vw;
+              }
+#meni ul a {
+           text-decoration: none;
+           color: #330000;
+         }
+#LOGO {
+	    height:4vw;
+        width:4vw;
+		background-color:transparent;
+        border-radius:50%;
+		margin-top:-29vw;
+		margin-left:5vw;
+		border:0.1vw solid black;
+		position:absolute;
+	   -webkit-animation:mymove 5s infinite;
+        animation:mymove 5s infinite;
+}
+@keyframes mymove {
+                    50% { 
+					     border:1vw solid #800000;
+					     background-color:#D2B48C;
+						 }
+					    }
+#LOGO p {
+	     font-family:monotype corsiva;
+		 font-size:30pt;
+		 margin-top:0vw;
+		 margin-left:0.7vw;		 
+}
+#Link p{
+	    font-family:monotype corsiva;
+		font-size:25pt;
+	    margin-left:5vw;
+}
+#Link ul li a {
+            text-decoration:none;
+			color:black;
+          } 
+			  
+ #Link1 li {
+	list-style:none;
+	font-size:25pt;
+	margin-left:5vw;
+	font-family:monotype corsiva;
+}
+#Link1 li:hover 
+                              {	               
+				list-style:url("Slike/facebook.png");		  
+               }
+#Link2 li {
+	list-style:none;
+	font-size:25pt;
+	margin-left:5vw;
+	font-family:monotype corsiva;
+}
+#Link2 li:hover 
+                              {	               
+			    list-style-image:url("Slike/twitter.png");	  
+               }
+#Link3 li {
+	list-style:none;
+	font-size:25pt;
+	margin-left:5vw;
+	font-family:monotype corsiva;
+}
+
+#Link3 li:hover 
+                              {	               
+			    list-style-image:url("Slike/instagram.png");	  
+               } 
+body {
+        background-image: url("Slike/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		overflow-x:hidden;
+		overflow-y:hidden;
+		display:block;
+     }
+
+#Naslov h1   {
+               text-align:center;
+               font-size: 70pt;
+               font-family:monotype corsiva;
+               margin-top: -2vw;
+
+            }
+
+#meni{
+        margin-top:-6vw;
+        padding-bottom:0.3vw;
+		padding-top:0.3vw;
+}
+#meni ul li {
+                display: inline;
+                text-align: left;
+                font-size: 30pt;
+                font-style:oblique;
+                font-family:monotype corsiva;
+				margin:4vw;
+				margin-left:6vw;
+				margin-top:-4vw;
+              }
+#meni ul a {
+                text-decoration: none;
+                color: #330000;
+                
+              }
+#oNama {
+	background-color:transparent;
+	height:27vw;
+	width:43vw;
+	margin-left:5vw;
+	margin-top:-3vw;
+}
+#oNama p {
+		 font-family:monotype corsiva;
+		 font-size:16pt;
+		 text-align:justify;
+}
+#oNamaOkvir {
+	border:0.1vw solid #331100;
+	border-radius:2vw;
+	background-image:url("Slike/mi.jpg");
+	background-repeat:no-repeat;
+	height:30vw;
+	width:45vw;
+	margin-left:50vw;
+	margin-top:-27.5vw;
+}
+#oNamaKraj p {
+	           text-align:center;
+			   font-family:monotype corsiva;
+			   font-size:20pt;
+}
+#LOGOoNama {
+	    height:4vw;
+        width:4vw;
+		background-color:transparent;
+        border-radius:50%;
+		margin-top:-49vw;
+		margin-left:5vw;
+		border:0.1vw solid black;
+	   -webkit-animation: mymove 5s infinite;
+        animation: mymove 5s infinite;
+}
+@keyframes mymove {
+                    50% { 
+					     border:1vw solid #800000;
+					     background-color:#D2B48C;
+						 }
+					    }
+#LOGOoNama p {
+	     font-family:monotype corsiva;
+		 font-size:30pt;
+		 margin-top:0.1vw;
+		 margin-left:1vw;
+}
+body {
+        background-image: url("Slike/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		overflow-x:hidden;
+		overflow-y:hidden;
+		display:block;
+     }
+
+#Naslov h1   {
+               text-align:center;
+               font-size: 70pt;
+               font-family:monotype corsiva;
+               margin-top: -2vw;
+
+            }
+
+#meni{
+        margin-top:-6vw;
+        padding-bottom:0.3vw;
+		padding-top:0.3vw;
+}
+#meni ul li {
+                display: inline;
+                text-align: left;
+                font-size: 30pt;
+                font-style:oblique;
+                font-family:monotype corsiva;
+				margin:4vw;
+				margin-left:6vw;
+				margin-top:-4vw;
+              }
+#meni ul a {
+                text-decoration: none;
+                color: #330000;
+                
+              }
+#OkvirKontakt
+           {
+        margin:auto;
+        width:28%;
+        height:60%;
+        border:1px solid #330000;
+        padding:1vw;
+        background-color:#996633;
+		border-radius:2vw;
+
+     }
+#txt label {
+          text-align: left;
+          font-family:monotype corsiva;
+          font-size: 30pt;
+		  margin-left:2vw;
+        } 
+#txt input  {
+                       width: 80%;
+                       height:8%;
+                       margin-top:-2vw;
+					   margin-left:2vw;
+					  
+         }
+ #txt textarea  {
+             width: 80%;
+             margin-top:-1.7vw;
+			 margin-left:2vw;
+			 
+          }
+#btn input {
+	      margin-top:-2.8vw;
+		  margin-left:19.2vw;
+		  height:2.2vw;
+		  width:5vw;
+}
+ #KrajKontakt p{
+	      font-family:monotype corsiva;
+		  text-align:center;
+		  font-size:20pt;
+       }
+#LOGOKontakt {
+	    height:4vw;
+        width:4vw;
+		background-color:transparent;
+        border-radius:50%;
+		margin-top:-47.5vw;
+		margin-left:5vw;
+		border:0.1vw solid black;
+	   -webkit-animation:mymove 5s infinite;
+        animation:mymove 5s infinite;
+}
+@keyframes mymove {
+                    50% { 
+					     border:1vw solid #800000;
+					     background-color:#D2B48C;
+						 }
+					    }
+#LOGOKontakt p {
+	     font-family:monotype corsiva;
+		 font-size:30pt;
+		 margin-top:0vw;
+		 margin-left:0.8vw;		 
+}

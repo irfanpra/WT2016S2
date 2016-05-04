@@ -1,0 +1,87 @@
+body {
+        background-image: url("Slike/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		overflow-x:hidden;
+		overflow-y:hidden;
+		display:block;
+     }
+
+#Naslov h1   {
+               text-align:center;
+               font-size: 70pt;
+               font-family:monotype corsiva;
+               margin-top: -2vw;
+
+            }
+
+#meni{
+        margin-top:-6vw;
+        padding-bottom:0.3vw;
+		padding-top:0.3vw;
+}
+#meni ul li {
+                display: inline;
+                text-align: left;
+                font-size: 30pt;
+                font-style:oblique;
+                font-family:monotype corsiva;
+				margin:4vw;
+				margin-left:6vw;
+				margin-top:-4vw;
+              }
+#meni ul a {
+                text-decoration: none;
+                color: #330000;
+                
+              }
+#oNama {
+	background-color:transparent;
+	height:27vw;
+	width:43vw;
+	margin-left:5vw;
+	margin-top:-3vw;
+}
+#oNama p {
+		 font-family:monotype corsiva;
+		 font-size:16pt;
+		 text-align:justify;
+}
+#oNamaOkvir {
+	border:0.1vw solid #331100;
+	border-radius:2vw;
+	background-image:url("Slike/mi.jpg");
+	background-repeat:no-repeat;
+	height:30vw;
+	width:45vw;
+	margin-left:50vw;
+	margin-top:-27.5vw;
+}
+#oNamaKraj p {
+	           text-align:center;
+			   font-family:monotype corsiva;
+			   font-size:20pt;
+}
+#LOGOoNama {
+	    height:4vw;
+        width:4vw;
+		background-color:transparent;
+        border-radius:50%;
+		margin-top:-49vw;
+		margin-left:5vw;
+		border:0.1vw solid black;
+	   -webkit-animation: mymove 5s infinite;
+        animation: mymove 5s infinite;
+}
+@keyframes mymove {
+                    50% { 
+					     border:1vw solid #800000;
+					     background-color:#D2B48C;
+						 }
+					    }
+#LOGOoNama p {
+	     font-family:monotype corsiva;
+		 font-size:30pt;
+		 margin-top:0.1vw;
+		 margin-left:1vw;
+}

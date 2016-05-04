@@ -1,0 +1,54 @@
+table, tr, th, td {
+	border: 1px solid #A61618;
+}
+
+td {
+	padding: 2px 5px 2px 5px;
+}
+
+th {
+	background-color: #876565;
+}
+
+tr:nth-child(even) {
+	background-color: darkgray;
+}
+
+tr:nth-child(odd) {
+	background-color: gray;
+}
+
+.archive {
+	width: 1000px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	background-color: yellow;
+}
+
+
+.archive .ordinal-header {
+	width: 10%;
+}
+
+.archive .release-year-header {
+	width: 12%;
+}
+
+.archive .times-viewed-header {
+	width: 15%;
+}
+
+
+
+.archive .ordinal-cell {
+	text-align: right;
+
+}
+
+.archive .release-year-cell {
+	text-align: center;
+}
+
+.archive .times-viewed-cell {
+	text-align: center;
+}

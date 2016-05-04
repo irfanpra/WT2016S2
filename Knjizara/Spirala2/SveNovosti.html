@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>eBook knjizara</TITLE>
+
+<link rel="stylesheet" type="text/css" href="stil.css">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+<script src = "novost.js"></script>
+     <div id = "Naslov">
+       <h1>eBook</h1>
+     </div>
+         <div id="meni">
+             <ul>
+             <li><a href="Knjižara.html">Početna</a></li>
+             <li><a href="Knjiga.html">Knjige</a></li>
+             <li><a href="Linkovi.html">Linkovi</a></li>
+             <li><a href="Onama.html">O nama</a></li>
+             <li><a href="Kontakt.html">Kontakt</a></li>
+             </ul>
+             </div>
+			  <div id = "sortiraneNovosti">
+			 <select id = "novosti">
+			 <option value="SveNovosti" onclick ="Sve()">Sve Novosti</option>
+			 <option value="danasnje" onclick = "Dan()">Današnje novosti</option>
+			 <option value="sedmicne" onclick = "Sedmica()">Sedmične novosti</option>
+			 <option value="mjesecne" onclick = "Mjesec()">Mjesečne novosti</option>
+			 </select>
+			 </div>
+			 <div id ="SveNaslov" onmouseover ="DatumSve()">
+			 <h4>Sve novosti</h2>
+			 <p>Danas je u našoj knjižari organizovano druženje za najmlađe obožavatelje knjiga. Uskoro pogledajte fotografije u našoj galeriji.
+			 <br>
+			    <label id="sve1"></label>
+			  </br>
+			 </p>
+			 <p>U našu knjižaru je stiglo mnogo novih stvari. Dođite i pogledajte novu kolekciju najprodavanijih knjiga.
+			 <br>
+			    <label id="sve2"></label>
+			  </br>
+			 </p>
+			 <p>Planirano je otvaranje naše nove poslovnice. Ubrzo više informacija o tome.
+			 <br>
+			    <label id="sve3"></label>
+			  </br>
+			 </p>
+			 <p>Novost
+              <br>
+			    <label id="sve4"></label>
+			  </br>
+			 </p>			 
+			 <p>Novost
+			 <br>
+			    <label id="sve5"></label>
+			  </br>
+			 </p>			 
+			 <p>Novost
+			 <br>
+			    <label id="sve6"></label>
+			  </br>
+			 </p>
+			 </div>
+</BODY>
+</HTML>

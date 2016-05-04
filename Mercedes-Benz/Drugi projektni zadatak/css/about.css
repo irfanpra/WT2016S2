@@ -1,0 +1,84 @@
+.about-wrapper{
+	background-image: url(img/index/cov2yellow.jpg);
+	color: white;
+	position: absolute;
+	margin-top: 150px;
+	height: 90%;
+	width: 90%;
+	margin-right: auto;
+	margin-left: 10%;
+	padding: 10px;
+}
+
+#img3{
+	margin-left: 20%;
+	width: 80%;
+	float: left;
+}
+
+.about-wrapper p{
+	margin: 10px;
+	font-style: italic;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#visit{
+	font-size: 18px;
+}
+
+.par-wrapper{
+	border: solid #484848 ;
+	position: relative;
+	width: 70%;
+	margin-bottom: 5%;
+}
+
+.links-wrapper{
+	border: solid #484848 ;
+	position: relative;
+	width: 25%;
+}
+
+
+.links{
+	margin-left: 50px;
+	list-style-type:none
+}
+
+.links li{
+	text-decoration: none;
+	margin: 10px;	
+}
+
+.links li a{
+	text-decoration: none;
+	color: white;
+}
+
+#id1:hover{
+	list-style-image: url("img/about/germany.png");
+}
+
+#id2:hover{
+	list-style-image: url("img/about/italy.png");
+}
+
+#id3:hover{
+	list-style-image: url("img/about/france.png");
+}
+
+#id4:hover{
+	list-style-image: url("img/about/estonia.png");
+}
+
+#id5:hover{
+	list-style-image: url("img/about/belgium.png");
+}
+
+#id6:hover{
+	list-style-image: url("img/about/austria.png");
+}
+
+
+

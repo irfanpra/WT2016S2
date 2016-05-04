@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	/*background: transparent;*/
+	background: #000;
+	color: black;
+	font-family: sans-serif;
+}
+
+
+
+
+
+.header{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background: #F0F0F0; 
+	background: -webkit-linear-gradient(left top, #F0F0F0 , white); 
+	background: -o-linear-gradient(bottom right, #F0F0F0, white); 
+	background: -moz-linear-gradient(bottom right, #F0F0F0, white); 
+	background: linear-gradient(to bottom right, #F0F0F0 , white); 
+	box-shadow: 0px 4px 4px #F0F0F0;
+	margin-bottom: 355px;
+}
+
+
+
+.menu{
+	position: relative;
+	width: 90%;
+	height: 99%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-menu li{
+	color: black;
+	display: inline;
+}
+
+.top-menu li a{
+	color: black;
+	font-weight:500;
+	padding-left: 48px;
+	font-size: 30px;
+	text-decoration: none;
+	font-family: Kaushan Script, sans-serif;
+}
+
+.logo{
+	position: relative;
+	float: left;
+	width: 10%;
+
+}
+
+
+
+.text-logo{
+	position: relative;
+	padding-top: 10px;
+	padding-left: 50px;
+	width: 50%;
+	float: left;
+	font-size: 20px;
+}
+
+.text-logo p{
+	margin-bottom: 0px;
+	font-family: Kaushan Script, sans-serif;
+}
+
+
+.menu-wrapper{
+	position: relative;
+	width: 40%;
+	float: left;
+	padding-top: 19px;
+	
+}
+
+
+@media only screen and (max-width: 1080px) {
+
+	.logo{
+	position: relative;
+	float: left;
+	width: 25%;
+	}
+
+	.header{
+		width: 100%;
+		height: 120px;
+		position: absolute;
+		background: #F0F0F0; 
+		background: -webkit-linear-gradient(left top, #F0F0F0 , white); 
+		background: -o-linear-gradient(bottom right, #F0F0F0, white); 
+		background: -moz-linear-gradient(bottom right, #F0F0F0, white); 
+		background: linear-gradient(to bottom right, #F0F0F0 , white); 
+		box-shadow: 0px 4px 4px #F0F0F0;
+		/*margin-bottom: 355px;*/
+	}
+
+	.menu-wrapper{
+	position: relative;
+	width: 40%;
+	float: left;
+	padding-top: 1px;
+	
+	}
+
+	.text-logo{
+		position: relative;
+		padding-top: 10px;
+		padding-left: 50px;
+		width: 10%;
+		float: left;
+		font-size: 8px;}
+
+	.top-menu li a{
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Kaushan Script, sans-serif;}
+
+
+
+	.text-logo p{
+	margin-bottom: 0px;
+	font-family: Kaushan Script, sans-serif;}
+
+
+	.menu{
+	position: relative;
+	width: 90%;
+	/*height: 99%;*/
+}
+
+}
+
+
+
+
+.content{
+	position: absolute;
+	margin-top: 108px; 
+	color: black;
+
+	background-color: black;
+	/*position: relative;*/
+	width: 100%;
+	height: 85%;
+	padding: 0px;
+}
+
+.footer{
+
+	background: #A0A0A0;
+	color: black;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-second{
+	background: green; /*#707070;*/
+	color: white;
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.top-menu li a:hover{
+	color: purple;
+	text-shadow: 2px 2px #D3D3D3;
+	font-style: italic;
+	cursor: url(http://cur.cursors-4u.net/mechanics/mec-4/mec338.cur), progress !important;
+}
+
+

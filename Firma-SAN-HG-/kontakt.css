@@ -1,0 +1,115 @@
+@import url(http://www.beyven.com/images/slider3.jpg);
+body
+{
+    background-image: url(http://www.beyven.com/images/slider3.jpg);
+    background-size: 100% 100%;
+    color: #000305;
+	font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    
+}
+a {
+    
+    text-decoration:underline;
+    
+}
+a:link, a:visited{
+    
+    color:lightblue;
+    
+}
+
+a:hover, a:active{
+    background-color: lightblue;
+    color:#FFF;
+}
+
+.body {
+    
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.mainHeader img {
+    
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+}
+
+.mainHeader nav{
+        width: 95.3%;
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left:3%;
+    
+}
+
+.mainHeader nav ul {
+    
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 21px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+    
+    background-color: lightblue;
+    text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+    
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainForm {
+    
+    margin:auto;
+}
+
+.mainFooter {
+    
+    width:95.5%;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin-top: 36%;
+}
+
+.mainFooter p {
+    width: 92%;
+    color:#FFF;
+    padding: 10px 25px;
+    margin: 0% auto;
+}
+#forma
+{    margin-top:5%;
+    margin-left:310px;
+    border-radius: 5px;
+    text-align:center;
+    background-color:white;
+    width:50%;
+}

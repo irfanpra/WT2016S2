@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>eBook knjizara</TITLE>
+
+<link rel="stylesheet" type="text/css" href="Knjižara.css">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+   <div id = "Okvir">
+     <div id = "Naslov">
+       <h1>eBook</h1>
+     </div>
+         <div id="meni">
+             <ul>
+             <li><a href="Knjižara.html">Početna</a></li>
+             <li><a href="Knjiga.html">Knjige</a></li>
+             <li><a href="Linkovi.html">Linkovi</a></li>
+             <li><a href="Onama.html">O nama</a></li>
+             <li><a href="Kontakt.html">Kontakt</a></li>
+             </ul>
+             </div>
+     <div id = "Pribor">
+     <p>Novo u našoj ponudi, školski pribor...<br> <br></br>
+     <img src ="http://www.alo.rs/resources/images/0000/005/169/20110829_public_shutterstock__Di003203019_400x0.jpg"></img></br></p 
+     </div>
+     <div id = "Copy">
+         <p>Kao i kopiranje </p>
+         <ul>
+         <li>Obično kopiranje 0.05 KM</li>
+         <li>Tvrdi uvez 5 KM</li>
+         <li>Mehki uvez 5 KM</li>
+         </ul>
+     <img src ="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrU7ldOqrWUcVzvMyAz4YTzwBpnNCgN1FEZKiw9qCf0poipFXH5Q_HGUU"></img>
+     </div> 
+   </div>
+ 
+</BODY>
+</HTML>

@@ -1,0 +1,309 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+body{
+	background-color: black;
+	margin-bottom: 30px;
+  width: 100%;
+  overflow-x:hidden;
+  
+}
+
+.align{
+  margin-left: 1%;
+}
+
+
+#menu{
+  font-size: 30px;
+  font-family: Gabriela;
+  margin-top: 28px;
+  width: 100%;
+  text-align: center;
+  margin-left: 34px;
+}
+
+.linkNavbar{
+	text-decoration: none;
+	color: white;
+	height: 35px;
+}
+
+.linkNavbar:hover{
+	background-color: #ff9900;
+}
+
+.active{
+	color: purple;
+}
+
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 23px;
+  border-top: 16px solid blue;
+  border-right: 16px solid #C3AD0B;
+  border-bottom: 16px solid #5D065A;
+  border-left: 16px solid #D61234;
+  width: 52px;
+  height: 52px;
+  animation: spin 8s linear infinite;
+  font-size: 18px;
+  color: white;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+h1{
+	color: purple;
+	font-family: Gabriela;
+}
+
+
+.pic-size:not(:hover){
+
+	-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  opacity: .75;
+}
+
+.pic-size-small{
+	height: 178px;
+	width: 162px;
+}
+.pic-size-large{
+	height: 300px;
+	width: 300px;
+}
+
+ul.enlarge li{
+  display:inline-block; 
+
+  position: relative; /*allows precise positioning of the popup image when used with position:absolute*/
+  z-index: 0; /*resets the stack order of the list items - we'll increase in ul.enlarge li:hover.*/
+
+}
+
+ul.enlarge span{
+  position:absolute; 
+  left: -9999px; /*moves the span off the page, effectively hidding it from view*/
+}
+
+ul.enlarge img{
+  /*give the thumbnails a frame*/
+  background-color:#eae9d4; /*frame colour*/
+  padding: 6px; /*frame size*/
+  /*and give the corners a small curve*/
+  border-radius: 4px;
+}
+
+ul.enlarge li:hover{
+  z-index: 50; /*places the popups infront of the thumbnails, which we gave a z-index of 0 in step 1*/ 
+  cursor:pointer; /*changes the cursor to a hand*/
+}
+/***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/ 
+ul.enlarge li:hover span{ /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/ 
+  top:60px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+  left: -80px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+/***Style the <span> containing the framed images and the caption***/
+ul.enlarge span{
+  /**Style the frame**/
+  padding: 10px; /*size of the frame*/
+  background:#eae9d4; /*colour of the frame*/
+  /*give the corners a curve*/
+  border-radius:8px;
+  /**Style the caption**/
+  font-family: 'Droid Sans', sans-serif; /*Droid Sans is available from Google fonts*/
+  font-size:.9em;
+  text-align: center;
+  color: #495a62;
+}
+
+footer{
+	color:white;
+	
+}
+
+
+.footer{
+  position: absolute;
+  bottom: -432px;
+  width: 100%;
+  height: 30px;
+  background-color: #ff9900;
+  left: 0px;
+}
+
+.enlarge{
+  margin-left: 2.2%;
+}
+
+li{
+  margin-left: 1%;
+}
+
+#bottomPanel{
+  position: absolute;
+  bottom: -402px;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  left: 0px;
+  float: left;
+
+
+}
+
+.bottomNavbar{
+  position: absolute;
+  height: 34.3px;
+  background-color: black;
+  left: 0px;
+  opacity: 0.8;
+  padding-left: 30%;
+  padding-top: 6px;
+  bottom: 159px;
+  width: 100%;
+}
+
+div.bottomNavbar a{
+  color:white;
+  font-size: 130%;
+  margin-right: 4%;
+}
+
+div.bottomNavbar a:hover{
+  text-decoration: underline;
+}
+
+#plus{
+  margin-left: 98%;
+}
+#plus a{
+  color:white;
+  font-size: 164%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#left{
+  font-size: 40px;
+  font-weight: bold;
+  width: 3%;
+  margin-top: 6%;
+  position: absolute;
+  margin-left: 1%;
+
+}
+
+#right{
+  margin-top: 6%;
+  font-size: 40px;
+  font-weight: bold;
+  width: 3%;
+  margin-left: 97.5%;
+  position: absolute;
+
+}
+
+#left a{
+  color: black;
+  text-decoration: none;
+}
+
+#right a{
+  color:black;
+  text-decoration: none;
+}
+.news-pic{
+
+  width: 170px;
+  height: 117px;
+  margin-left: 1%;
+  margin-top: 3.8%;
+  margin-right: 1%;
+}
+
+#all{
+
+ display: flex;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ width: 93.5%;
+ margin-top: 3%;
+ margin-left: 2.3%;
+ position: absolute;
+
+
+}
+
+
+#all div{
+  margin-left: 2%;
+}
+
+a:hover{
+  cursor:pointer;
+}
+
+p span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.news-title{
+  color:blue;
+}
+
+/*text over image start*/
+.image { 
+ position: relative; /*position relative on element on which you want to add text*/ 
+
+}
+
+p { 
+  position: absolute; /*position absolute on text*/ 
+  top: 95px;
+  left: 2px;
+  width: 164px;
+  color: white;
+  background-color: black;
+  padding-left: 3%;
+  height: 18%;
+  padding-top: 3%;
+  opacity: 0.8;
+}
+/*text over image finish*/
+
+
+}
+
+@media only screen and (min-width: 1225px)
+{
+ ul.enlarge li {
+    width: 15%;
+
+}
+
+}
+
+
+

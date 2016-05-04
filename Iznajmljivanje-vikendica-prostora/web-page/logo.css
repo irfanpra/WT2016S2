@@ -1,0 +1,218 @@
+.okvir {
+  height: 210px;
+  width: 220px;
+  position: relative;
+  overflow:hidden;
+  border-radius:25%;
+  border-color: #00cccc;
+  border-style: solid;
+  border-width: 10px;
+ /* box-shadow: 10px 10px 5px #e1d5d5;*/
+  /*box-shadow: 10px 10px 5px white;*/
+  align-self: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.kuca
+{
+  position: absolute;
+  height: 110px;
+  width: 120px;
+  background-color: #00cccc;
+  border-color: #00cccc;
+  border-style: solid;
+  top: 35%;
+  left: 22.5%;
+  border-radius: 20%;
+  transition:all 0.3s;
+}
+
+.krovL 
+{
+  position: absolute;
+  height: 10px;
+  width: 120px;
+  border-color: #ff8000;
+  border-style: solid;
+  background-color: #ff8000;
+  top: 27%;
+  left: 2.5%;
+  transform: rotate(-45deg);
+  border-radius: 25%;
+  transition:all 0.3s;
+
+}
+.krovR 
+{
+  position: absolute;
+  height: 10px;
+  width: 120px;
+  border-color: #ff8000;
+  border-style: solid;
+  background-color: #ff8000;
+  top: 27%;
+  left: 42%;
+  transform: rotate(45deg);
+  border-radius: 25%;
+  transition:all 0.3s;
+
+}
+
+
+
+.predulaz 
+{
+  position: absolute;
+  height: 10px;
+  width: 144px;
+  border-color: #ff8000;
+  border-style: solid;
+  background-color: #ff8000;
+  top: 83%;
+  left: 17%;
+  border-radius: 25%;
+  transition:all 0.3s;
+}
+
+.dimnjak 
+{
+  position: absolute;
+  height: 30px;
+  width: 20px;
+  border-color: #ff8000;
+  border-style: solid;
+  background-color: #ff8000;
+  top: 20%;
+  left: 77%;
+  border-radius: 25%;
+  transition:all 0.3s;
+}
+
+.prozorL
+{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-color: #ff8000;
+  border-style: solid;
+  background-color: #ff8000;
+  top: 43%;
+  left: 30%;
+  border-radius: 25%;
+  transition:all 0.3s;
+}
+
+.prozorR
+{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-color: #ff8000;
+  border-style: solid;
+  background-color: #ff8000;
+  top: 43%;
+  left: 53%;
+  border-radius: 25%;
+  transition:all 0.3s;
+}
+
+.dim1
+{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #e1d5d5;
+  top: 10%;
+  left: 73%;
+  border-radius: 50%;
+  visibility: hidden;
+  
+  transition: visibility 0s linear 0s, opacity 0s linear;
+}
+.dim2
+{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #e1d5d5;
+  top: 5%;
+  left: 66%;
+  border-radius: 50%;
+  visibility: hidden;
+  transition:visibility 0s linear 0.4s, opacity 0s linear;
+}
+
+.dim3
+{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #e1d5d5;
+  top: 2%;
+  left: 60%;
+  border-radius: 50%;
+  visibility: hidden;
+  
+  transition:visibility 0s linear 0.8s, opacity 0s linear;
+}
+
+.okvir:hover .dim3
+{
+  visibility: visible;
+  opacity:1;
+}
+
+.okvir:hover .dim2
+{
+  visibility: visible;
+  opacity:1;
+}
+
+.okvir:hover .dim1
+{
+  visibility: visible;
+  opacity:1;
+}
+/*
+.okvir:hover .kuca
+{
+   background-color: white; 
+}
+
+.okvir:hover .krovL
+{
+   background-color: white; 
+}
+
+.okvir:hover .krovR
+{
+   background-color: white; 
+}
+
+.okvir:hover .dimnjak
+{
+   background-color: white; 
+}
+
+.okvir:hover .ulaz
+{
+   background-color: white;
+}
+
+.okvir:hover .predulaz
+{
+   background-color: white; 
+}
+
+.okvir:hover .prozorL
+{
+   background-color: white; 
+}
+.okvir:hover .prozorR
+{
+   background-color: white; 
+}
+*/
+

@@ -1,0 +1,253 @@
+@font-face {
+ font-family:'a';
+  src: url('DJGROSS.ttf');
+	}
+	
+#header
+{
+	padding:75px;
+	background-color:transparent;
+	
+	
+}
+
+body
+{
+	background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnV4caWx-bC7YFNthZmjEolhDvFLdUk4o5kbwakRhZeUo3i51I');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+	min-width: 750px;
+	margin:0;
+	
+	height:100%;
+}
+
+h1 span {
+  font-family:a;
+  height: 200px;
+  position: absolute;
+  width: 20px;
+  color:#0066CC	;
+  left:800px;
+  text-align:center;
+  top: 0;
+  transform-origin: bottom center;
+}
+#navigation ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	padding-left:610px;
+	height:55px;
+min-width:990px;
+	font-size:25px;
+	
+    background-color: transparent;
+}
+
+
+
+#navigation li {
+    float: left;
+	
+	
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation  a:hover {
+    background-color: #C8C8C8 	;
+}
+
+
+.tekst
+{
+	margin-top:100px;
+	margin-left:-120px;
+}
+#zajednicka
+{
+	text-align:center;
+}
+
+.sadrzaj {
+	
+  width: 1600px;
+  margin: 0 auto;
+  margin-top:-20px;
+  color:white;
+
+  }
+.Novost {
+
+  width: 520px;
+   display: inline-block;
+  
+  }
+img
+{
+	float:left;
+	width:210px;
+	height:130px;
+}
+	
+	
+	
+
+#body   ul
+{
+	
+    font-size:120%;
+	list-style-type:none;
+	display:inline-block;
+	float: none;
+    color:red;
+	background-color: transparent;
+	margin-top:10%;
+	
+	
+}
+#body li a{
+	
+color:white;	
+}
+
+
+
+#body ul  li:hover
+{
+list-style-image:url('http://www.woollettaquanet.info/SheetMusic/musicimages/sqblack.gif');
+	
+}
+#body ul li:hover:not(.active) {
+	
+    list-style-image:url('http://www.woollettaquanet.info/SheetMusic/musicimages/sqblack.gif');
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+
+   margin-top:10%;
+	
+	
+	
+}
+#sirina
+
+{
+	column-width:20px;
+	
+}
+th
+{
+	background-color:silver;
+	column-width:auto;
+}
+tr:nth-child(odd) {
+    background-color: #00FFFF	;
+}
+tr:nth-child(even) {
+    background-color: #FFFFFF	;
+}
+
+.centriraj
+{
+	position:absolute;
+	width:960px;
+	margin-left:550px;
+	margin-top:80px;
+}
+table
+{
+	table-layout:fixed;
+	width:600px;
+}
+
+
+.formPosition
+{
+	position:absolute;
+	width:1000px;
+	margin-left:600px;
+	margin-top:40px;
+	
+	}
+form
+{
+	text-align:center;
+	display:inline-block;
+width:490px;
+height:300px;
+background: gray;
+ 
+}
+
+label, input {
+    /* in order to define widths */
+    display: inline-block;
+	
+	}
+
+label {
+    width: 25%;
+    /* positions the label text beside the input */
+    text-align: right;
+
+	margin-top:2%;
+	}
+button{
+	margin-top:2%;
+	
+	
+margin-left:30px;
+}
+
+
+
+label + input {
+    width: 35%;
+	
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 35% 0 3%;
+}
+
+
+  .char1 { transform: rotate(-60.5deg);
+
+	
+}
+.char2 { transform: rotate(-49.5deg);
+}
+.char3 { transform: rotate(-38.5deg);
+}
+.char4 { transform: rotate(-27.5deg);
+}
+.char5 { transform: rotate(-16.5deg); 
+	}
+.char6 { transform: rotate(-5.5deg);
+}
+.char7 { transform: rotate(5.5deg);
+}
+.char8{ transform: rotate(16.5deg);
+}
+.char9 { transform: rotate(27.5deg);
+}
+.char10 { transform: rotate(38.5deg);
+}
+.char11 { transform: rotate(49.5deg);
+}
+.char12{ transform: rotate(60.5deg);}

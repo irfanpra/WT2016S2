@@ -1,0 +1,60 @@
+.teg {
+  display: inline-block;
+  height: 80px;
+  top:40px;
+  left:30px;
+  position: absolute;
+  width: 165px;
+
+}
+
+.ploca2 {
+ 
+  border: 2px solid #000000;
+  border-radius: 15%;
+  display: inline-block;
+  height: 40px;
+  margin: 0 0.3px;
+  position:relative;
+  width: 10px;
+  bottom: 25px;
+  background-color:#32c6ff;
+  
+}
+.ploca1 {
+ 
+  border: 2px solid #000000;
+  border-radius: 15%;
+  display: inline-block;
+  height: 60px;
+  margin: 0 0.3px;
+  position:relative;
+  width: 12px;
+  bottom:15px;
+  background-color:#32c6ff;
+
+}
+
+.sipka {
+  border: 2px solid #000000;
+  bottom: 40px;
+  display: inline-block;
+  height: 16px;
+  margin: 0 0.3px;
+  position: relative;
+  width: 50px;
+  background-color:silver;
+
+}
+
+.osigurac {
+  border: 2px solid #000000;
+  bottom: 40px;
+  display: inline-block;
+  height: 16px;
+  margin:0 0.3px;
+  position: relative;
+  width: 12px;
+  background-color:silver;
+
+}

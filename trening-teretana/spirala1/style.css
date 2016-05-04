@@ -1,0 +1,40 @@
+.pomjeri{
+	margin-left:30px;
+}
+#pozadina{
+	width:80%;
+	height:650px;
+	border:5px solid #0C6BB2;
+	margin:auto;
+	background-color:gray;	
+		
+}
+input, textarea{
+	padding:12px;
+	border:3px solid #32c6ff;
+	width:60%;
+	margin-bottom:20px;
+	margin-left:20px;
+	color:#0C6BB2;
+	box-shadow:silver 0 0 10px;
+}
+textarea{
+	width:70%;
+	height:180px;
+	max-width:283px;
+}
+input:hover, textarea:hover, input:focus,textarea:focus{
+	box-shadow:#0C6BB2 0 0 19px;
+}
+
+.form label{
+	margin: 21px;
+	color:silver;
+}
+.submit input{
+	width:100px;
+	height:40px;
+	border-radius:8px;
+	background-color:#0051A8;
+	color:silver;
+}

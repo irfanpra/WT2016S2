@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+
+body {
+    background-image: url("http://www.pickatheme.com/twitter-backgrounds/images/bg/3091.jpg");
+	background-attachment: fixed;
+}
+
+   
+#zaglavlje {
+	font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    background-color: transparent;
+    text-indent: 2%; 
+    height: 125px;    
+}
+
+#meni ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#meni li {
+    float: left;
+}
+
+#meni li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#meni li a:hover {
+    background-color: #111;
+}
+
+p.detalji {		text-align: right;
+				background-color: transparent;
+				margin: auto; 
+				padding-right: 30px;
+				padding-bottom: 20px;
+				border-bottom-left-radius:25px;
+				border-bottom-right-radius:25px;
+				}
+				
+
+
+.lijevo {	background-color: #fce9fc;  
+			float: left;
+			width: 64%;
+			padding-left: 8px;
+			border:3px solid #b30059;
+			border-radius:25px;
+			background-color: transparent;
+		}
+		
+.lijevo h2.vrh {	color: black;
+					padding-left: 10px;
+					padding-top: 7px;
+					padding-bottom: 15px;
+					margin-top: auto;
+					margin-bottom: auto;
+				}
+			
+.lijevo  h6 {	color: black;
+				background-color: silver;
+				font-style: italic;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-left: 5px;
+				margin-bottom: auto;
+				margin-top: auto;
+				}
+			
+.lijevo p {		background-color: transparent;
+				border:3px solid transparent;
+				margin: auto; 
+				padding-top: 5px;
+				padding-left: 5px;
+				padding-bottom: 15px;
+				}
+
+			
+.lijevo p a {		color: #b30059;
+				text-decoration:none;
+				text-align: right;
+				font-weight: bold;
+				}
+			
+.lijevo p a:hover {	color:red;
+					text-decoration:underline;
+					font-weight: bold;
+					text-align: right;
+			}
+
+#desno {	margin: auto;
+			float: right;
+			width: 34%;
+			min-width:250px;
+			border: 3px solid #602040;
+			border-radius:25px;
+			background-color: transparent;
+		}
+		
+#desno h2 {		color: black;
+				padding-left: 10px;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				margin-top: auto;
+				margin-bottom: auto;
+				}
+
+#desno p {		background-color: transparent;
+				border:1px solid #602040;
+				margin: auto; 
+				padding-top: 10px;
+				padding-left: 5px;
+				padding-bottom: 14px;
+				}
+			
+#desno p.dodatno {		border-bottom-left-radius:25px;
+						border-bottom-right-radius:25px;
+						border-bottom: 5px;
+						padding-top: 5px;
+						}
+
+#okvir {
+    background-color: transparent;
+    min-width: 1000px;
+    margin-right: auto;
+    margin-left: 180px;         
+}
+
+#podnozje {
+    background-color: transparent;   
+    padding-left: 10px;
+    clear: both;    
+}
+
+/*Izgled stranice Contact*/
+form{
+  background: -webkit-linear-gradient(white, #EEEEEE 175px);
+  background: -moz-linear-gradient(#CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(#CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  width: 550px;
+  height: 450px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: #800040;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);  /*gradiend efekat za google chrome*/
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); /*gradiend efekat za mozilu*/
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); /*za starije verzije browsera*/
+}
+
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#feedback {
+  width: 375px;
+  height: 150px;
+  display: block;
+}
+
+button {
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #660033;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #999;
+}
+
+input.button:hover {
+  background: #fff;
+  color: #09C;
+}
+
+textarea:focus, input:focus {
+  border: 1px solid #09C;
+}
+
+/*Izgled za linkove*/
+.linkovi  {	list-style-image: url("checked.png");
+			padding-top: 25px;
+			}
+
+a {		color: blue;
+		text-decoration: none;
+		}
+
+a:hover {	color: red;
+			text-decoration: underline;
+			}
+					
+a:visited {	color: purple;
+			text-decoration: none;
+			}
+
+a:visited:hover {	text-decoration: underline;
+					color:red; 
+					}
+
+.dodatno {	text-align: center;
+			color: #000001;
+			}
+a.meni:hover {	background-color: silver;	}

@@ -1,0 +1,95 @@
+.logo{width: 400px;
+    height: 230px;
+    background-color: #ffe;
+    border: 8px solid #000;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 0px #000 inset ;
+    position: static;
+    transform: rotate(90deg) translate(-115px,130px) scale(0.5);
+
+}
+
+.juve {
+  height: 80px;
+  width: 210px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+   transform: rotate(-90deg) translate(-74px,10px);
+  
+   font: 50px arial, sans-serif;
+   line-height:160%;
+   text-align:center;
+   letter-spacing: 4px;
+ 
+}
+.slika{  height: 200px;
+  width: 350px;}
+h1, p
+{text-align:center;}
+
+body {
+ background-color: #C0C0C0;min-width:934px;
+}
+.objava{text-align:left;font-size:70%;}
+a {		color: blue;
+		text-decoration: none;
+		}
+
+a:hover {	text-decoration: underline;
+			}
+
+a:visited {
+ color: purple;
+}
+#novosti{width: 100%;text-align:left;display: inline-block;}
+#vijesti {	 
+			float: left;
+			width: 350px;
+                        height:100px;
+			min-width:50px;
+			background-color: #00000;
+		}
+#historija{float:right;width:100px;}
+#dno
+{height: 100px;
+width:100%;}
+
+#historija{width: 100%;text-align:left;display: inline-block;}
+.linkovi{text-align:left;width: 100%;}
+.naslov{font-size:170%;text-align:left;}
+#forma{background-color: white;
+       width: 265px;
+            height:200px;
+text-align:right;
+margin: 0 auto;
+
+}
+table, th, td {
+
+ border: 1px black;
+ 
+padding-right:4px;
+
+
+}
+table{ background-color: black;}
+th {
+ height: 20px;
+ text-align: left;
+
+ color: black;
+}
+td {
+
+ height: 20px;
+ vertical-align: bottom;
+
+text-align:left;
+ padding: 5px;
+}
+tr:nth-child(even) {background: white}
+tr:nth-child(odd) {background: grey}
+
+li{list-style-type: none;}
+
+ .link:hover{list-style-type:square;}

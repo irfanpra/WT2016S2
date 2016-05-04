@@ -1,0 +1,206 @@
+﻿body {
+  background-image: url("http://fastcarwallpapers.com/image/car/nissan-gtr-beautiful-wallpapers/nissan-gtr-beautiful-wallpapers-28.jpg");
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.naslov {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  background-color: #F8F8FF;
+  font-weight: bold;
+  border-radius: 25px;
+  height: 6%;
+  width: 20%;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 10px;
+}
+
+ol {
+  width: 28%;
+  height: 20%;
+  vertical-align: center;
+  padding-top: 10px;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  list-style-type: none;
+  background-color: #F8F8FF;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+li:hover {
+  list-style-image: url('http://www.wikiplacemarks.com/images/icon-car-black-16.png');
+}
+
+img {
+  opacity: 0.8;
+  border-radius: 25px;
+}
+
+/*
+---LOGO
+*/
+
+.xDesniDio, .xLijeviDio{
+  height: 200px;
+  width: 150px;
+  margin-right: 0px;
+  position: absolute;
+  left: 100px;
+  overflow: hidden;
+  transform: translateX(100px);
+  transition:all 0.8s;
+}
+
+.xDesniDio {
+  background: #696969;
+  transform: skewX(-45deg);
+}
+
+.xLijeviDio {
+  background: DarkCyan;
+  transform: skewX(45deg);
+}
+
+.xSredina {
+  height: 66.3px;
+  width: 66.3px;
+  background: white;
+  position: absolute;
+  left: 121.8px;
+  top: 54.7px;
+  transform: skewX(-40deg);
+  overflow: hidden;
+  transform: rotate(45deg);
+  border: 20px solid white;
+  border: 20px solid #696969;
+  border-right: 20px solid DarkCyan;
+  border-left: 20px solid DarkCyan;
+  transition:all 0.8s;
+}
+
+.xSredina:hover {
+  background: lime;
+  border-top: 20px solid DarkCyan;
+  border-bottom: 20px solid DarkCyan;
+  border-right: 20px solid #696969;
+  border-left: 20px solid #696969;
+}
+
+.xLijeviDio:hover {
+ background: #696969;;
+}
+
+.xDesniDio:hover {
+  background: DarkCyan;
+}
+
+.linijaGornja, .linijaDonja {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  left: 300px;
+}
+
+.linijaGornja {
+  background: #696969;
+}
+
+.linijaDonja {
+  background: DarkCyan;
+  position: absolute;
+  top: 178px;
+}
+
+/*
+--MENI
+*/
+
+.home {
+  height: 80px; 
+  width: 80px;
+  position:relative;
+  left: 410px;
+  top: 35px;
+}
+
+.car, .contact, .table, .links {
+  height: 70px; 
+  width: 70px;
+  position:relative;
+  top: 30px;
+}
+
+.car {
+  position:relative;
+  left: 485px;
+}
+
+.contact {
+  position:relative;
+  left: 565px;
+}
+
+.table {
+  position:relative;
+  left: 644px;
+}
+
+.links {
+  position: relative;
+  left: 720px;
+  border-radius: 5px;
+}
+
+/*
+--NATPISI
+*/
+
+.n {
+  position: relative;
+  left: 405px;
+}
+
+.a {
+  position: relative;
+  left: 480px;
+}
+
+.k {
+  position: relative;
+  left: 560px;
+}
+
+.t {
+  position: relative;
+  left: 630px;
+}
+
+.l {
+  position: relative;
+  left: 700px;
+}
+
+.a:hover, .n:hover, .t:hover, .k:hover, .l:hover {
+  color: DarkCyan;
+}
+
+a {
+  font-weight: bold;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+
+.n, .a, .k, .t, .l {
+  position: relative;
+  top: 140px;
+}
+
+

@@ -1,0 +1,1 @@
+for /f  %%i in (linkovi.txt) do git clone %%i

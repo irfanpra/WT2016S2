@@ -1,0 +1,52 @@
+#two2
+{
+	width:80%;
+	float:left;
+}
+
+.centralna
+{
+	
+	border-style: solid;
+	border-color: #ff8000;
+	border-width:1px;
+    font-family: verdana;
+    width:90%;
+    border-radius: 5px;
+    color:white;
+	font-size: 0.8vw; /*bilo 14px*/
+	font-weight: bold;
+}
+.centralna:hover
+{
+	box-shadow: 0 0 5px 3px #ff8000;
+	/*background-color: #92f6f7;
+	 border-color: #92f6f7;*/
+}
+
+.zaglavlje
+{
+	background-color:#ff8000;
+	border-style: solid;
+	border-color: #ff8000;
+	height: 40px;
+    border-radius: 5px;
+}
+
+.neparna
+{
+	background-color: #92f6f7;
+	border-style: solid;
+	border-color:#92f6f7;
+	height: 40px;
+    border-radius: 5px;
+}
+
+.parna
+{
+	background-color:#00cccc;
+	border-style: solid;
+	border-color:#00cccc;
+	height: 40px;
+    border-radius: 5px;
+}

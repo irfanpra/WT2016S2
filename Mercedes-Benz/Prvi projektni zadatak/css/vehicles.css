@@ -1,0 +1,60 @@
+
+
+.table-wrapper{
+	position: absolute;
+	background-color: black;
+	margin-top: 104px;
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	padding: 1%;
+}
+
+.car-table{
+	border-collapse: collapse;
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.car-table tr:nth-child(odd){
+	background-color: #505050;
+}
+
+.car-table tr:nth-child(even){
+	background-color: #909090;
+}
+
+.classes th{
+	background-color: #F8F8F8;
+	color: black;
+}
+
+.car{
+	/*width: 300px;
+	height: 300px;*/
+	
+}
+
+.car img{
+	position: relative;
+	width: 90%;
+	height: 70%;
+}
+
+.car p{
+	text-align: center;
+	font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+	.car p{
+	text-align: center;
+	font-style: italic;
+	font-size: 10px;
+	}
+
+}

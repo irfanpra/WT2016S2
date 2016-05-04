@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Play:400,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext);
+
+.Logo > p 
+{ 
+	font-family:Audiowide;
+	width:100px;
+}
+#A{
+	font-size:136px;
+	text-shadow: 0px 0px 10px red;
+	position:relative;
+	top:-127px;
+}
+#uto
+{	
+	color: red;
+    top: 67px;
+    left: 111px;
+    font-size: 29px;
+    position: absolute;
+	
+}
+
+#S 
+{
+	color: red;
+	font-size: 136px;
+	top: -128px;
+    left: 104px;
+	text-shadow: 0px 0px 10px black;
+	position: absolute;
+}
+#imanic
+{
+	font-size: 29px;
+	position: absolute;
+	top: 84px;
+    left: 203px;
+	
+}

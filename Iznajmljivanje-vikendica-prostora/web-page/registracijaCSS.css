@@ -1,0 +1,74 @@
+.centriraj
+{
+	margin-left:auto;
+	margin-right: auto;
+}
+#one1
+{
+	width:20%;
+	float:left;
+}
+#two2
+{
+	width:60%;
+	float:left;
+}
+#three3
+{
+	width:20%;
+	float:left;
+}
+.velikiR
+{
+	width: 85%;
+	height: 520px;
+	background-color: #ff8000;
+	border-style: solid;
+	border-color: #ff8000;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.poravnajR
+{
+	text-align: left;
+}
+.dugme2R
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color:white;
+	font-size: 0.9vw; /*bilo 16px*/
+	cursor: pointer;
+	background-color: #00cccc;
+	border:none;
+	font-family: verdana;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: all 0.3s;
+	text-decoration: none;
+	width:50%;
+	margin-right: 5%;
+	
+}
+.dugme2R:hover
+{
+	background-color: #ff8000;
+	font-size: 1.2vw; /*bilo 20px*/
+	width: 50%;
+}
+.tekstRe
+{
+	font-family: verdana;
+    background: white; 
+    border: 1px solid #ffa853; 
+    border-radius: 5px;  
+    outline: none; 
+    height:23px; 
+}
+.tekstMali
+{
+	font-family: verdana;
+   	color:white;
+    font-size: 0.6vw;
+}

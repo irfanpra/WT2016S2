@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Exo);
+
+.news-wrapper{
+	color: black;
+	font-size: 16px;
+	width: 100%;
+	background: 	#505050 ;
+	position: absolute;
+	margin-top: 104px;
+	padding: 1%;
+	text-align: justify;
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+}
+
+.latest-wrapper{
+	padding: 2%;
+	float: left;
+	position: relative;
+	width: 60%;
+	margin-right: 1%;
+	/*margin-bottom: 7%;
+	padding: 2%;*/
+}
+
+.latest{
+
+}
+
+
+.most-wrapper{
+	padding: 2%;
+	float: left;
+	position: relative;
+	width: 35%;
+	/*border-bottom: solid #F0F0F0;
+	box-shadow: 4px 4px 20px #F0F0F0 inset;
+	background-color: #F0F0F0;*/
+	/*margin-bottom: 7%;*/
+	margin-right: 0px;
+
+}
+
+
+.most-viewed{
+
+}
+article{
+	border-radius: 18px;
+	padding: 2%;
+	/*border-bottom: 5px solid #505050 ;*/
+	border-bottom: solid #F0F0F0;
+	box-shadow: 9px 9px 25px #F0F0F0 ;
+	background: #F0F0F0;
+	margin-bottom: 5%;
+
+}
+
+.latest article img, .most-viewed article img{
+	position: relative;
+	width: 30%;
+	height: 30%;
+	float: left;
+	padding:2%;
+}
+
+.latest article h3, .most-viewed article h3{
+	position: relative;
+	width: 80%;
+	padding:2%;
+	font-family: Exo, sans ;
+	font-style: italic;
+}
+
+.latest-wrapper h2, .most-wrapper h2{
+	position: relative;
+	width: 80%;
+	padding: 3px;
+	color: #F0F0F0;
+	
+	text-shadow: 3px 3px 	#707070 ;
+	font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+
+	.news-wrapper{
+	color: black;
+	font-size: 16px;
+	width: 100%;
+	background: 	#505050 ;
+	position: absolute;
+/*	margin-top: 104px;*/
+	padding: 1%;
+	text-align: justify;
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+}
+
+	article{
+		font: 12px;
+		border-radius: 1px;
+	}
+
+	.latest article h3, .most-viewed article h3{
+	position: relative;
+	font-size: 14px;
+	padding:2%;
+	font-family: Exo, sans ;
+	font-style: italic;
+	}
+
+	.latest-wrapper h2, .most-wrapper h2{
+	position: relative;
+	font-size: 16px;
+	padding: 3px;
+	color: #F0F0F0;
+	
+	text-shadow: 3px 3px 	#707070 ;
+	font-style: italic;
+	}
+
+
+}

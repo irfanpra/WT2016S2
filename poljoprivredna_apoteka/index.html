@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Agro-Land</title>
+		<script type="text/javascript" src="skripte/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="stilovi/stil.css">
+	</head>
+	<body>
+		<div id="menu" class="row">
+			<a href="index.html">
+				<div id="logo" class="col-4">
+					<div class="box-logo-name">
+						<div class="box-logo">
+							<div class="raindrop green_ligth"></div>
+	    					<div class="raindrop green"></div>
+	    					<div class="raindrop green_ligth"></div>
+	    					<div class="raindrop green"></div>
+	    					<div class="raindrop green_ligth"></div> 
+						</div>
+						Agro Land
+					</div>
+				</div>
+			</a>
+			<ul class="col-5">
+				<li><a href="index.html" class="active">Početna</a></li>
+				<li class="dropdown">
+					<a href="#">Proizvodi</a>
+					<div class="dropdown-content">
+					    <a href="lista_proizvoda.html">Tip proizvoda 1</a>
+					    <a href="lista_proizvoda.html">Tip proizvoda 1</a>
+	    				<a href="lista_proizvoda.html">Tip proizvoda 1</a>
+  					</div>
+  				</li>
+				<li><a href="onama.html">O nama</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<div class="col-3">
+				<div class="search">
+					<a href="#">
+						<img src="img/page/search.png" alt="pretraga ico">
+					</a>
+					<input name="search" type="text" placeholder="Pretraga"/>
+				</div>
+			</div>
+		</div>
+		<div id="glavni" class="row">
+			<div id="glavni-lijevo" class="col-8">
+				<div class="row">
+					<div id="novoNaslov" class="col-9">
+						<h3>Novo</h3>
+					</div>
+					<div class="col-3">
+						<select id="filter" onchange="filtrirajProizvode()">
+						  <option value="sve">Prikazi sve</option>
+						  <option value="danas">Danas</option>
+						  <option value="sedmice">Sedmicne</option>
+						  <option value="mjesec">Mjesec</option>
+						</select>
+					</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">5 11, 2014 19:30:25</div>
+	  				<div class="datum">5 11, 2014 19:30:25</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">1 19, 2013 12:30:25</div>
+	  				<div class="datum">1 19, 2013 12:30:25</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">2 14, 2016 05:30:25</div>
+	  				<div class="datum">2 14, 2016 05:30:25</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	    			<div class="datumObjave">3 28, 2016 05:30:25</div>
+	  				<div class="datum">3 28, 2016 05:30:25</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">3 28, 2016 05:30:25</div>
+	  				<div class="datum">3 28, 2016 05:30:25</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	    			<div class="datumObjave">3 25, 2016 05:30:25</div>
+	  				<div class="datum">3 25, 2016 05:30:25</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">3 27, 2016 15:30:00</div>
+	  				<div class="datum">3 27, 2016 15:30:00</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">3 29, 2016 00:00:00</div>
+	  				<div class="datum">3-29-2016 00:00:00</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">3 01, 2016 17:04:00</div>
+	  				<div class="datum">3 01, 2016 17:04:00</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">3 01, 2016 17:04:00</div>
+	  				<div class="datum">3 01, 2016 17:04:00</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">3 01, 2016 17:04:00</div>
+	  				<div class="datum">3 01, 2016 17:04:00</div>
+				</div>
+				<div class="proizvod">
+	  				<img src="img/products/product_1.jpg" alt="Product 1">
+	  				<div class="sadrzaj-proizvod">
+	    				<p>Naziv proizvoda</p>
+	    				<p>Cijena <b>50 KM</b></p>
+	    				<a href="proizvod.html" class="button-green">Detalji</a>
+	  				</div>
+	  				<div class="datumObjave">3 01, 2016 17:04:00</div>
+	  				<div class="datum">3 01, 2016 17:04:00</div>
+				</div>
+			</div>
+			<div id="glavno-desno" class="col-4">
+				<h3>Obavještenja</h3>
+				<div class="obavjestenja">
+					<div class="vijest">
+						<h4><a href="#" class="link_vijest">Naslov 1<span>Opsirnije</span></a></h4>
+						<div class="sadrzaj">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rem odit quis quaerat. In dolorem praesentium velit ea esse consequuntur cum fugit sequi voluptas ut possimus.
+						</div>
+						<div class="info">
+							<div class="datumObjaveVijest">2016-03-28T17:04:00</div>
+						</div>
+						<hr>
+					</div>
+					<div class="vijest">
+						<h4><a href="#" class="link_vijest">Naslov 2<span>Opsirnije</span></a></h4>
+						<div class="sadrzaj">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rem odit quis quaerat. In dolorem praesentium velit ea esse consequuntur cum fugit sequi voluptas ut possimus.
+						</div>
+						<div class="info">
+							<div class="datumObjaveVijest">2016-03-25T17:04:00</div>
+						</div>
+						<hr>
+					</div>
+					<div class="vijest">
+						<h4><a href="#" class="link_vijest">Naslov 3<span>Opsirnije</span></a></h4>
+						<div class="sadrzaj">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rem odit quis quaerat. In dolorem praesentium velit ea esse consequuntur cum fugit sequi voluptas ut possimus.
+						</div>
+						<div class="info">
+							<div class="datumObjaveVijest">2016-03-20T17:04:00</div>
+						</div>
+						<hr>
+					</div>
+					<div class="vijest">
+						<h4><a href="#" class="link_vijest">Naslov 4<span>Opsirnije</span></a></h4>
+						<div class="sadrzaj">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt rem odit quis quaerat. In dolorem praesentium velit ea esse consequuntur cum fugit sequi voluptas ut possimus.
+						</div>
+						<div class="info">
+							<div class="datumObjaveVijest">2016-03-08T17:04:00</div>
+						</div>
+						<hr>
+					</div>
+				</div>
+				<h3>Pronađite nas</h3>
+				<div class="obavjestenja">
+					<ul id="drustvene-mreze">
+						<li><a href="https://facebook.com">Facebook</a><hr></li>
+						<li><a href="https://twitter.com">Twitter</a><hr></li>
+						<li><a href="https://www.instagram.com">Instagram</a><hr></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="row">
+			<div class="col-6">
+				&copy; agro land
+			</div>
+			<div class="col-6 desni">
+				<ul>
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="#">Proizvodi</a></li>
+					<li><a href="onama.html">O nama</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

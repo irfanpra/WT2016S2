@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+
+#redovi_kolone
+{	
+
+	margin-left: auto;
+	overflow: hidden;
+	position: relative;
+	top: -180px;
+	margin-right: auto;
+
+}
+#redovi_kolone th {
+    position: relative;
+    top: 1px;
+    color: yellow;
+    background-color: gray;
+}
+#redovi_kolone tr:nth-child(even)
+{	
+	
+	color: #16052B;
+	background-color: yellow;
+}
+#redovi_kolone tr:nth-child(odd)
+{	
+
+	color:yellow;
+	background-color: black;
+    width: 80%;
+}
+
+
+table{
+    width:80%;
+	border-collapse:collapse;
+}
+
+
+table, td, tr{
+	border: 3px solid black;
+}
+
+.forma
+{	
+	color:#16052B;
+	background-color: yellow;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 38px 70px 28px 38px;
+    width: 260px;
+    height: 330px;
+    margin: auto;
+    top: -120px;
+    position: relative;
+}
+
+#dugme
+{	
+    margin-left: 100px;
+	margin-top:-3px;
+}
+
+.Linkovi 
+{
+	font-size:20px;
+	color:yellow;
+	position: relative;
+    top: -170px;
+}
+
+
+ .Linkovi ul li
+{
+	list-style-type: none;
+	text-decoration:none;
+} 
+
+
+.Linkovi ul li:hover
+{	
+	list-style-image:url('maliSearch2.png');
+	
+	
+}
+
+
+.Linkovi ul li a{
+	color:yellow;
+	
+}
+
+.Linkovi ul li a:link {
+    text-decoration: none;
+}
+
+
+.Linkovi ul li a:visited {
+    text-decoration: none;
+}
+
+
+.Linkovi ul li a:hover {
+    text-decoration: none;
+}
+
+
+.Linkovi ul li a:active {
+    text-decoration: none;
+}
+
+.Menu {
+
+	/* font-family:Lobster; */
+}
+
+
+.Menu li {
+    display: inline;
+	float: left;
+	margin: -7px 44px 4px 0;
+	text-align: center;
+	padding-left: 20px;
+	
+}
+
+.Menu li a{
+	text-decoration:none;
+	font-size: 21px;
+	color:aqua;
+}
+
+
+.Clanak1 li {
+    border: 2px black;
+    background-color: yellow;
+    color: #16052B;
+    padding: 10px 20px 0px 10px;
+    font-size: small;
+    height: 215px;
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    width: 209px;
+	margin-bottom:20px;
+	border-radius=10px;
+}
+.Clanak1 img {
+   
+    height: 115px;
+    width: 217px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+	border-radius:10px;
+}
+
+
+.Clanak1 ul{
+	overflow:hidden;
+   margin-left: auto; 
+	font-family: Arial;
+	/*background-color: #16052B;*/
+	border-radius=10px;
+}
+
+.Clanak1{
+	border-radius:10px;
+	float:left;
+	width: 48%;
+}
+.Menu ul {
+    padding-bottom:20px;
+}
+
+.vrObjave{
+	font-size:9px;
+	color:grey;
+}

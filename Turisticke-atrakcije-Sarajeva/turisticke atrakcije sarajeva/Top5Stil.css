@@ -1,0 +1,182 @@
+#menu{
+	margin-left:50px;
+	margin-right:50px;
+}
+#menu ul 
+{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	
+}
+#menu a
+{
+	display:block;
+	width:8em;
+	color:white;
+	background-color: black;
+	text-decoration:none;
+	text-align:center;
+	
+}
+#menu a:hover
+{
+	background-color: red;
+	
+}
+#menu li
+{
+	float:right;
+
+}
+
+
+body
+{
+	background-image:url(Sarajevo1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color:black;
+
+}
+table, th, td {
+   border: 1px solid black;
+  
+}
+tr.d1{
+	background-color:black;
+	color:red;
+}
+table
+{
+	position:center;
+	font-family:verdana;
+	margin:auto;
+	margin-top:200px;
+}
+
+
+tr.d1 td {
+  text-align:center;
+  color: white;
+  font-size:30px;
+  width:60px;
+height:30px;
+ background-color:#990000;
+  
+}
+tr td.k1
+{
+	font-size:25px;
+	font-style:italic;
+		
+}
+tr.d2 td
+{
+	text-align:center;
+  color: black;
+  font-size:25px;
+  background-color:#ff8c66;
+	
+}
+tr.d3 td
+{
+	text-align:center;
+  color: black;
+  font-size:25px;
+  background-color:	  #cc0000;
+	
+}
+tr.d4 td
+{
+	text-align:center;
+  color: black;
+  font-size:25px;
+  background-color:	#ff8c66;
+	
+}
+tr.d5 td
+{
+	text-align:center;
+  color: black;
+  font-size:25px;
+  background-color:	  #cc0000;
+	
+}
+h1
+{
+	text-align:center;
+	font-size:50px;
+}
+.srce
+{
+	position:relative;
+	margin:-10px;
+	margin-top:-10px;
+	height:42px;
+	width:50px;
+display:inline;
+	content:"EnyojSarajevo!";
+	color:black;
+	font-size:20px;
+	
+}
+.srce:before, 
+.srce:after
+{
+	position:absolute;
+	content:"";
+	width:25px;
+	height:40px;
+	background:#cc0000;
+	border-radius: 12px 12px 0 0 ;
+	
+}
+.srce:before
+{
+	left:25px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	-webkit-transform-origin:0 100%;
+	transform-origin:0 100%;
+	background:#184668;
+}
+.srce:after{
+	left:0;
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+		-webkit-transform-origin:100% 100%;
+	transform-origin:100% 100%;
+	
+	
+}
+.title a {
+  color:#184668;
+  text-decoration:none;
+  transition:.2s;
+}
+.title {
+  float:left;
+margin-top:5px;
+  
+  font-size:25px;
+  line-height:1em;
+  font-weight:100;
+  letter-spacing:0.025em;
+  background-color:#cc0000;
+  font-style:italic;
+}
+.logo
+{
+	position:fixed;
+	float:right;
+	top:0px;
+	margin-top:0px;
+	margin-left:0px;
+	
+}
+.title:hover
+{
+	background-color:red;
+}
+

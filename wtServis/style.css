@@ -1,0 +1,378 @@
+body{
+	margin: 0 auto;
+	background-color: white;
+	/*background-image: url('images/pozadina.jpg'); */
+	overflow-x: hidden;
+}
+
+#slika{
+	margin-top: -16px;
+	z-index:1;
+}
+
+#slika img{
+	width: 100%;
+}
+
+#meni{
+	background: linear-gradient(#2196F3, #0961AA);
+	/*background: linear-gradient(white, #0961AA);*/
+	width: 100%;
+	margin-top: -15px;
+	z-index:100;
+}
+
+#meni ul{
+	list-style-type: none;
+	/*margin-left: 350px;*/
+}
+
+#meni li {
+	background-color: transparent;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#meni li a{
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15pt;
+	text-decoration: none;
+	display: block;
+}
+
+#meni li:hover{
+	background-color: white;
+}
+
+#meni #logo_li:hover{
+	background-color: transparent;
+}
+
+#meni li:hover a{
+	color: #2196F3;
+}
+
+#meni ul .odabrani{
+	background-color: #0961aa;
+}
+
+#meni ul .odabrani a{
+	color: white;
+}
+
+#forma-kontakt{
+	width: 500px;
+	border: 1px #CCCCCC solid;
+	padding-bottom: 15px;
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+}
+
+#forma-kontakt h2{
+	background: linear-gradient(#2196F3, #0961AA);
+	color: white;
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+}
+
+#forma-kontakt label{
+	padding-left: 25px;
+	font-size: 15pt;
+	color: #333333;
+	display: block;
+}
+#forma-kontakt textarea{
+	width: 450px;
+	margin: 0 auto;
+	display:block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: #e6e6e6;
+	border: 1px #CCCCCC solid;
+}
+
+#forma-kontakt textarea:hover{
+	background-color: white;
+}
+
+ #forma-kontakt .kontakt-podaci label{
+	display: inline-block;
+	font-size: 15pt;
+	color: #333333
+}
+
+ #forma-kontakt .kontakt-podaci  input{
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-right: 25px;
+	height: 30px;
+	background-color: #e6e6e6;
+	border: 1px #CCCCCC solid;
+}
+
+ #forma-kontakt .kontakt-podaci  input:hover{
+	background-color: white;
+}
+
+ #forma-kontakt button{
+	float:right;
+	padding: 10px 20px 10px 20px;
+	font-size: 13pt;
+	margin-top: 10px;
+	margin-right: 25px;
+	border: 1px #CCCCCC solid;
+	background-color: #0961AA;
+	color: white;	
+}
+
+ #forma-kontakt button:active{
+	background-color: #2196F3;
+	color: white;	
+}
+
+ #forma-kontakt button:hover{
+	background-color: #2196F3;
+	color: white;	
+}
+
+#naslovna-tabela{
+	border-collapse:collapse;
+	width: 25%;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 1px #CCCCCC solid;
+	font-size: 15pt;
+}
+
+.vodeci-red th{
+	background: linear-gradient(#2196F3, #0961AA);
+	color: white;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+#naslovna-tabela td{
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+#naslovna-tabela tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+#naslovna-tabela tr:nth-child(odd) {
+   background-color:#ffffff;
+}
+
+#vijesti{
+	background-color: transparent;
+	width: 61.2%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px 3px 0px 5px;
+}
+
+#vijesti .novost{
+	position: relative;
+	display: inline-block;
+	clear: both;
+	width: 365px;
+	height: 505px;
+	border: 1px #CCCCCC solid;
+	clear: both;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	background-color: #f2f2f2;
+}
+
+.novost h4{
+	float:left;
+	width: 100%;
+	height: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	font-size:17px;
+}
+
+.novost p{
+	height: 110px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	float:left;
+	margin-right: 10px;
+}
+
+.novost img{
+	border: 1px #CCCCCC solid;
+	margin-left: 4px;
+	margin-top: 4px;
+	width: 350px;
+	height: 255px;
+}
+
+.novost p{
+	text-align: left;
+	margin-left: 15px;
+	margin-top: -5px;
+}
+
+.novost a{
+	float: right;
+	margin-right: 15px;
+	text-decoration: none;
+	color: #0961AA;
+}
+
+.vrijeme{
+	position: absolute;
+	left: 20;
+	bottom: 5px;
+	left: 15px;
+}
+
+.novost a:hover{
+	color: #2196F3;
+}
+
+#lista-linkova{
+	margin: 0 auto;
+	width: 340px;
+	margin-top: 100px;
+}
+
+#lista-linkova ul li{
+	font-size: 15pt;
+	list-style: none;
+}
+
+#lista-linkova ul li a{
+	text-decoration: none;
+	color: #0961AA;
+}
+
+#lista-linkova ul li:hover{
+	list-style-image: url('images/wheel.png');
+}
+
+.wrap {
+  background-color: transparent;
+  margin-top: 5px;
+  margin-left: 70px;
+  padding-top: 0px;
+  height: 110px;
+  width: 140px;
+  position: relative;
+  overflow:hidden;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+  
+ .arrow-up {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	width: 0; 
+	height: 0; 
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 100px solid #113265;
+}
+
+ .arrow-up p{
+	font-family: Loki;
+	position: absolute;
+	top: -56%;
+	left: 26.8%;
+	padding-top: 30px;
+	color: white;
+	font-size: 45pt;
+	z-index: 100;
+}
+
+.arrow-up .autodelta{
+	top: 32%;
+	left: 19.8%;
+	font-size: 11pt;
+	font-family: Verdana;
+	color: white;
+}
+
+.arrow-up .autodelta-ba{
+	top: -22%;
+	left: 28.8%;
+	font-size: 45pt;
+	font-family: Verdana; 
+	color: white;
+}
+
+.arrow-up:hover{
+	/*border-bottom: 100px solid black;*/
+}
+.wrap:hover{
+	-webkit-transform: rotate(360deg);
+  	transform: rotate(360deg);
+}
+
+@font-face {
+    font-family: 'Loki';
+    src: url('fonts/LOKICOLA.ttf');
+}
+
+#vertical{
+	background: linear-gradient(#2196F3, #0961AA);
+	width: 210px;
+	margin-top: 20px;
+	float:left;
+	/*background: linear-gradient(white, #0961AA);*/
+}
+
+#vertical ul{
+	list-style-type: none;
+	/*margin-left: 350px;*/
+}
+
+#vertical li {
+	background-color: transparent;
+}
+
+#vertical li a{
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13pt;
+	text-decoration: none;
+	display: block;
+}
+
+#vertical li:hover a{
+	color: #2196F3;
+}
+
+#vertical ul .odabrani{
+	background-color: #0961aa;
+}
+
+#vertical ul .odabrani a{
+	color: white;
+}
+
+#forma-kontakt #operater{
+	width: 100%;
+	overflow: hidden;
+	font-size: 14pt;
+	color: #333333;
+	padding-left: 20px;
+}
+
+#forma-kontakt #operater input.radio{
+	display: inline-block;
+}

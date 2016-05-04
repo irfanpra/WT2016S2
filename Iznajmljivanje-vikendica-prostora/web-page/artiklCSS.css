@@ -1,0 +1,53 @@
+.divA
+{
+	width: 45%;
+	height: 150px;
+	background-color: #00cccc;
+	border-style: solid;
+	border-color: #00cccc;
+	border-radius: 3%; /*a bilo 5 px;*/
+	float: left;
+	margin: 1%;
+	display: inline; /*a bilo 5px;*/
+}
+.divA:hover
+{
+		box-shadow: 0 0 5px 3px #e1d5d5;
+		background-color: #92f6f7;
+		border-color: #92f6f7;
+}
+
+.divB
+{
+	width: 80%;
+	height: 200px;
+	background-color: #ff8000;
+	border-style: solid;
+	border-color: #ff8000;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+}
+.divB:hover
+{
+		box-shadow: 0 0 10px 8px #e1d5d5;
+		background-color: #ff9900;
+		border-color: #ff9900;
+}
+.divAcc
+{
+	width: 85%;
+	height: 160px;
+	background-color: #00cccc;
+	border-style: solid;
+	border-color: #00cccc;
+	border-radius: 3%; /*a bilo 5 px;*/
+	float: left;
+	margin: 1%; /*a bilo 5px;*/
+}
+.divAcc:hover
+{
+		box-shadow: 0 0 5px 3px #e1d5d5;
+		background-color: #92f6f7;
+		border-color: #92f6f7;
+}

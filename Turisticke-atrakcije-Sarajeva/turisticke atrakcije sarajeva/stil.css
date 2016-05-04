@@ -1,0 +1,327 @@
+
+h1
+{
+	color:#cc0000 ;
+	text-align:center;
+	position: static;
+	font-family:verdana;
+font-style:italic;	
+}
+h2
+{
+	color:#cc0000 ;
+	font-family:verdana;
+}
+body
+{
+
+
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-image:url(panoramaBW.jpg);
+
+background-repeat:no-repeat;
+background-size:cover;
+
+}
+#menu{
+	margin-left:50px;
+	margin-right:50px;
+}
+#menu ul 
+{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	
+}
+#menu a
+{
+	display:block;
+	width:8em;
+	color:white;
+	background-color: black;
+	text-decoration:none;
+	text-align:center;
+	
+}
+#menu a:hover
+{
+	background-color: #cc0000;
+	
+}
+#menu li
+{
+	float:right;
+
+}
+
+
+
+
+/*.Lijevo
+{
+	
+	text-align:center;
+	font:bold;
+	float:left;
+	width:45vw;
+	height:40vw;
+	border:10px;
+	border-color:#800000;
+	border-style:solid;
+	position:static;
+	font-family:verdana;
+	color:#cc0000;
+	font-style:bold;
+
+}*/
+.Lijevo img
+{
+	width:80%;
+	height:60%;
+}
+.Novostdol
+{
+	
+	text-align:center;
+	font:bold;
+	float:left;
+	width:45vw;
+	height:40vw;
+	border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	margin-top:2vw;
+	margin-left:0%;
+	margin-right:50%;
+	position:static;
+	font-family:verdana;	
+
+}
+.Novostdol img
+{
+	width:;
+	height:60%;
+	position:static;
+}
+
+/*
+.Desno
+{
+  
+  position:static;
+    margin-left: 50vw;
+    width:45vw;
+	height:40vw;
+    float:right; 
+    border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	color:#cc0000;
+	text-align:center;
+    font-family:verdana;
+
+	margin-top:-85vw;
+
+
+
+
+}*/
+.Desno img
+{
+	width:30vw;
+	height:20vw;
+	position:static;
+}
+
+
+
+.Lijevo
+{
+		text-align:center;
+	font:bold;
+	float:left;
+	width:45vw;
+	height:40vw;
+	border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	margin-top:-41vw;
+	margin-left:0%;
+	margin-right:50%;
+	position:static;
+	font-family:verdana;
+	
+}
+.Desno
+{	width:45vw;
+	height:40vw;
+	
+	text-align:center;
+	float:left;
+	margin-top:0vw;
+	margin-left: 51%;
+	margin-right:0%;
+		border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	position:static;
+	color:#cc0000;
+   font-family:verdana;
+	
+}
+.Novost7
+{
+		text-align:center;
+	font:bold;
+	float:left;
+	width:45vw;
+	height:20vw;
+	border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	margin-top:5vw;
+	margin-left:0%;
+	margin-right:50%;
+	position:static;
+	font-family:verdana;
+	
+}
+.Novost8
+{
+	width:45vw;
+	height:20vw;
+	
+	text-align:center;
+	float:left;
+	margin-top:-21.5vw;
+	margin-left: 51vw;
+	margin-right:0%;
+		border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	position:static;
+	color:#cc0000;
+   font-family:verdana;
+	
+}
+.Novost9
+{
+			text-align:center;
+	font:bold;
+	float:left;
+	width:45vw;
+	height:20vw;
+	border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	margin-top:5vw;
+	margin-left:0%;
+	margin-right:50%;
+	position:static;
+	font-family:verdana;
+	
+	
+}
+.Novost10
+{
+	width:45vw;
+	height:20vw;
+	
+	text-align:center;
+	float:left;
+	margin-top:-21.5vw;
+	margin-left: 51vw;
+	margin-right:0%;
+		border:10px;
+	border-color:#cc0000;
+	border-style:solid;
+	position:static;
+	color:#cc0000;
+   font-family:verdana;
+}
+.srce
+{
+	position:relative;
+	margin:-10px;
+	margin-top:-10px;
+	height:42px;
+	width:50px;
+display:inline;
+	content:"EnyojSarajevo!";
+	color:black;
+	font-size:20px;
+	
+	
+	
+}
+
+.srce:before, 
+.srce:after
+{
+	position:absolute;
+	content:"";
+	width:25px;
+	height:40px;
+	background:#cc0000;
+	border-radius: 12px 12px 0 0 ;
+	
+}
+.srce:before
+{
+	left:25px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	-webkit-transform-origin:0 100%;
+	transform-origin:0 100%;
+	background:#184668;
+}
+.srce:after{
+	left:0;
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+		-webkit-transform-origin:100% 100%;
+	transform-origin:100% 100%;
+	
+	
+}
+.title a {
+  color:#184668;
+  text-decoration:none;
+  transition:.2s;
+}
+.title:hover
+{
+	background-color:red;
+}
+.title {
+  float:left;
+margin-top:5px;
+  
+  font-size:25px;
+  line-height:1em;
+  font-weight:100;
+  letter-spacing:0.025em;
+  background-color:#cc0000;
+  font-style:italic;
+}
+.logo
+{
+	position:fixed;
+	float:right;
+	top:0px;
+	margin-top:0px;
+	margin-left:0px;
+	
+}
+#filterD
+{
+	float:right;
+	background-color:black;
+}
+.vrijeme
+{
+	color:black;
+	background-color:white;
+}
